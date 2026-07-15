@@ -318,3 +318,6 @@
 /area/shuttle/ruin/free_miner
 	name = "Free Miner Ship"
 	requires_power = TRUE
+
+/area/shuttle/vox_trader
+	name = "trading ship"

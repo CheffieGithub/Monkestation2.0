@@ -620,6 +620,10 @@
 	name = "Lavaland Shuttle"
 	build_path = /obj/machinery/computer/shuttle/mining/common
 
+/obj/item/circuitboard/computer/vox_shuttle
+	name = "trading shuttle"
+	build_path = /obj/machinery/computer/shuttle/vox
+
 /obj/item/circuitboard/computer/emergency_pod
 	name = "Emergency Pod Controls"
 	greyscale_colors = CIRCUIT_COLOR_GENERIC

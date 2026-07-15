@@ -1,0 +1,262 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/vox_trader)
+"b" = (
+/obj/machinery/door/window/left/directional/east,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/shuttle/vox_trader)
+"d" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
+"e" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/shuttle/vox_trader)
+"f" = (
+/obj/structure/table,
+/obj/machinery/button{
+	name = "trade shutter control";
+	id = "vox_trade_shutters";
+	pixel_y = 24
+	},
+/obj/item/paper_bin{
+	pixel_y = 4
+	},
+/obj/item/pen/blue{
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"i" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"j" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/vox_trader)
+"l" = (
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"n" = (
+/obj/machinery/light/floor/has_bulb,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"o" = (
+/obj/effect/spawner/structure/window/reinforced/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/vox_trader)
+"p" = (
+/obj/structure/closet/secure_closet,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"t" = (
+/obj/machinery/atm{
+	pixel_y = 32
+	},
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
+"w" = (
+/obj/machinery/power/shuttle_engine/propulsion/right{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/shuttle/vox_trader)
+"x" = (
+/turf/template_noop,
+/area/template_noop)
+"B" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters{
+	dir = 4;
+	id = "vox_trade_shutters"
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"C" = (
+/obj/item/radio/intercom/directional/south,
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
+"D" = (
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
+"E" = (
+/obj/machinery/door/airlock/shuttle,
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
+"G" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/mask/gas,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/shuttle/vox_trader)
+"H" = (
+/obj/machinery/door/airlock/shuttle/glass,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"I" = (
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 4
+	},
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/vox_trader)
+"L" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
+"M" = (
+/obj/machinery/computer/shuttle/vox{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/shuttle/vox_trader)
+"N" = (
+/obj/machinery/light/floor/has_bulb,
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
+"O" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"P" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/shuttle/vox_trader)
+"Q" = (
+/obj/item/kirbyplants/organic/plant1,
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
+"V" = (
+/obj/structure/table,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"Y" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/obj/item/radio/intercom/directional/south,
+/turf/open/floor/mineral/titanium/tiled/yellow,
+/area/shuttle/vox_trader)
+
+(1,1,1) = {"
+x
+o
+o
+o
+o
+o
+x
+"}
+(2,1,1) = {"
+x
+o
+P
+G
+M
+o
+x
+"}
+(3,1,1) = {"
+a
+j
+b
+e
+Y
+j
+a
+"}
+(4,1,1) = {"
+j
+p
+l
+l
+l
+V
+j
+"}
+(5,1,1) = {"
+a
+l
+l
+n
+l
+i
+a
+"}
+(6,1,1) = {"
+a
+f
+O
+l
+l
+l
+a
+"}
+(7,1,1) = {"
+a
+B
+B
+B
+a
+H
+a
+"}
+(8,1,1) = {"
+E
+D
+D
+D
+D
+D
+a
+"}
+(9,1,1) = {"
+E
+D
+D
+N
+D
+C
+a
+"}
+(10,1,1) = {"
+j
+t
+d
+L
+d
+Q
+j
+"}
+(11,1,1) = {"
+j
+I
+I
+j
+I
+I
+j
+"}
+(12,1,1) = {"
+j
+w
+w
+j
+w
+w
+j
+"}

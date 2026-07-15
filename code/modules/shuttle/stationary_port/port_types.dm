@@ -96,3 +96,12 @@
 		"whiteship_personalshuttle",
 		"whiteship_obelisk",
 	)
+
+/obj/docking_port/stationary/vox_trader
+	name = "trading post"
+	shuttle_id = "vox_trade_post"
+	roundstart_template = /datum/map_template/shuttle/infiltrator/advanced
+	dwidth = 2
+	dheight = 3
+	height =  7
+	width = 12
