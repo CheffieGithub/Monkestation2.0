@@ -293,7 +293,6 @@
 	effect_path = /obj/structure/glowshroom/glowcap
 	tastes = list("glowcap" = 1)
 
-
 //Shadowshroom
 /obj/item/seeds/glowshroom/shadowshroom
 	name = "pack of shadowshroom mycelium"

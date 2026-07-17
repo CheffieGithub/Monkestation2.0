@@ -780,3 +780,63 @@
 // Specifically for the antennas of the shrimp. im not a shrimxpert.
 /area/ruin/space/shrimptennas
 	name = "Shrimp Outside"
+
+
+
+/area/ruin/space/vox_trader
+	name = "\improper Trading Post Asteroid"
+
+/area/ruin/space/vox_trader/ruin
+	name = "\improper Trading Post External Access"
+
+/area/ruin/space/vox_trader/close
+	name = "\improper Trading Post Close"
+	icon = 'icons/area/areas_misc.dmi'
+	icon_state = "space_near"
+	area_flags = UNIQUE_AREA | AREA_USES_STARLIGHT
+	static_lighting = TRUE
+
+/area/ruin/space/has_grav/vox_trader
+	name = "\improper Trading Post"
+
+/area/ruin/space/has_grav/vox_trader/maintenance
+	name = "\improper Trading Post Maintenance"
+	ambience_index = AMBIENCE_MAINT
+	mood_bonus = 15
+	mood_message = "Being in maintenance makes me feel like i'm home again!"
+	mood_trait = TRAIT_MAINTENANCE_DWELLER
+	sound_environment = SOUND_ENVIRONMENT_HALLWAY
+	forced_ambience = TRUE
+	ambient_buzz = 'sound/ambience/source_corridor2.ogg'
+	ambient_buzz_vol = 50
+
+/area/ruin/space/has_grav/vox_trader/hallway
+	name = "\improper Trading Post Hallway"
+
+/area/ruin/space/has_grav/vox_trader/cargo
+	name = "\improper Trading Post Cargo"
+
+/area/ruin/space/has_grav/vox_trader/atmos
+	name = "\improper Trading Post Atmospherics"
+
+/area/ruin/space/has_grav/vox_trader/dorm
+	name = "\improper Trading Post Crew Quarters"
+	sound_environment = SOUND_AREA_WOODFLOOR
+
+/area/ruin/space/has_grav/vox_trader/botany
+	name = "\improper Trading Post Hydroponics"
+
+/area/ruin/space/has_grav/vox_trader/kitchen
+	name = "\improper Trading Post Kitchen"
+
+/area/ruin/space/has_grav/vox_trader/medical
+	name = "\improper Trading Post First Aid Centre"
+
+/area/ruin/space/has_grav/vox_trader/mining
+	name = "\improper Trading Post Mining and Storage"
+
+/area/ruin/space/has_grav/vox_trader/visitation
+	name = "\improper Trading Post Trading Floor"
+
+/area/ruin/space/has_grav/vox_trader/access
+	name = "\improper Trading Post External Access"

@@ -20,6 +20,8 @@
 	tiled_dirt = FALSE
 	rust_resistance = RUST_RESISTANCE_BASIC
 
+MAPPING_GASMIX_HELPERS(/turf/open/floor/wood)
+
 /turf/open/floor/wood/broken_states()
 	return list("wood-broken", "wood-broken2", "wood-broken3", "wood-broken4", "wood-broken5", "wood-broken6", "wood-broken7")
 
@@ -72,12 +74,11 @@
 /turf/open/floor/wood/freezing
 	temperature = 180
 
-/turf/open/floor/wood/airless
-	initial_gas_mix = AIRLESS_ATMOS
-
 /turf/open/floor/wood/tile
 	icon_state = "wood_tile"
 	floor_tile = /obj/item/stack/tile/wood/tile
+
+MAPPING_GASMIX_HELPERS(/turf/open/floor/wood/tile)
 
 /turf/open/floor/wood/tile/broken_states()
 	return list("wood_tile-broken", "wood_tile-broken2", "wood_tile-broken3")

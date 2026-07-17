@@ -716,6 +716,10 @@
 	desc = "This rock is filled with pockets of breathable air."
 	baseturfs = /turf/open/misc/asteroid
 
+/turf/closed/mineral/random/stationside/asteroid/porus/nitrogen
+	desc = "This rock is filled with pockets of nitrogen."
+	baseturfs = /turf/open/misc/asteroid/atmos/nitrogen
+
 /turf/closed/mineral/asteroid/porous
 	name = "porous rock"
 	desc = "This rock is filled with pockets of breathable air."

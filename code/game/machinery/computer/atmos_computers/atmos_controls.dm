@@ -125,3 +125,9 @@
 		ATMOS_GAS_MONITOR_ORDNANCE_BURN = "Ordnance Burn Chamber",
 		ATMOS_GAS_MONITOR_ORDNANCE_FREEZER = "Ordnance Freezer Chamber",
 	)
+
+/obj/machinery/computer/atmos_control/trader_nitrogren
+	name = "trading outpost gas control"
+	atmos_chambers = list(
+		"trader-n2" = "Nitrogen Supply"
+	)

@@ -331,27 +331,6 @@
 	SET_PLANE_EXPLICIT(pipe_vision_img, ABOVE_HUD_PLANE, src)
 	playsound(loc, 'sound/weapons/bladeslice.ogg', 100, TRUE)
 
-
-/obj/machinery/atmospherics/components/unary/vent_scrubber/layer2
-	piping_layer = 2
-	icon_state = "scrub_map-2"
-
-/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4
-	piping_layer = 4
-	icon_state = "scrub_map-4"
-
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on
-	on = TRUE
-	icon_state = "scrub_map_on-3"
-
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2
-	piping_layer = 2
-	icon_state = "scrub_map_on-2"
-
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4
-	piping_layer = 4
-	icon_state = "scrub_map_on-4"
-
 /obj/machinery/atmospherics/components/unary/vent_scrubber/plunger_act(obj/item/plunger/plunger, mob/living/user, reinforced)
 	if(!clogged)
 		return
@@ -396,7 +375,6 @@
  * * living_mobs - Used to add the spawned mob to the list of currently living mobs produced by this vent.
  * Relevant code for how the list is handled is in the scrubber_clog.dm file.
  */
-
 /obj/machinery/atmospherics/components/unary/vent_scrubber/proc/produce_mob(spawned_mob, list/living_mobs)
 	if(welded)
 		return
@@ -408,3 +386,35 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/disconnect()
 	..()
 	set_on(FALSE)
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer2
+	piping_layer = 2
+	icon_state = "scrub_map-2"
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer2/oxygen
+	filter_types = list(/datum/gas/carbon_dioxide, /datum/gas/oxygen)
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4
+	piping_layer = 4
+	icon_state = "scrub_map-4"
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/layer4/oxygen
+	filter_types = list(/datum/gas/carbon_dioxide, /datum/gas/oxygen)
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on
+	on = TRUE
+	icon_state = "scrub_map_on-3"
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2
+	piping_layer = 2
+	icon_state = "scrub_map_on-2"
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen
+	filter_types = list(/datum/gas/carbon_dioxide, /datum/gas/oxygen)
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4
+	piping_layer = 4
+	icon_state = "scrub_map_on-4"
+
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4/oxygen
+	filter_types = list(/datum/gas/carbon_dioxide, /datum/gas/oxygen)

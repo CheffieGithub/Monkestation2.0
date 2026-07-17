@@ -1,0 +1,3864 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ai" = (
+/obj/structure/table,
+/obj/machinery/splicer,
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"aj" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "vox_trader"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"aq" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/vending/engivend,
+/turf/open/floor/iron/textured_large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"aK" = (
+/obj/structure/closet/secure_closet/freezer/fridge/all_access,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"aO" = (
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted{
+	dir = 4
+	},
+/obj/structure/rack,
+/obj/item/stack/sheet/glass/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"aQ" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/glowshroom/single,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"aX" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "vox_trading_floor"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"bc" = (
+/obj/machinery/vending/hydronutrients,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"be" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"bh" = (
+/obj/structure/rack,
+/obj/item/storage/box/lights/mixed,
+/obj/item/clothing/gloves/color/black,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"bi" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"bk" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"bA" = (
+/obj/machinery/airalarm/directional/west,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"bL" = (
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"bN" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"bQ" = (
+/obj/effect/turf_decal/tile/brown/half{
+	dir = 8
+	},
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"bS" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"cc" = (
+/turf/closed/mineral/random/stationside/asteroid,
+/area/ruin/space/vox_trader)
+"cx" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 8
+	},
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"cT" = (
+/obj/structure/glowshroom/single,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"cZ" = (
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted{
+	dir = 1
+	},
+/obj/structure/glowshroom/single,
+/obj/structure/table,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/flashlight/lantern,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"df" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"dj" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"dm" = (
+/obj/machinery/door/airlock/public,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"do" = (
+/obj/machinery/door/airlock/public/glass{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"dy" = (
+/obj/machinery/washing_machine,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"dz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"dQ" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"dV" = (
+/obj/machinery/vending/hydroseeds,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"eh" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/ruin/space/vox_trader/close)
+"ej" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"eo" = (
+/obj/effect/turf_decal/tile/blue/fourcorners,
+/obj/machinery/door/airlock/medical/glass,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"ew" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"eI" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"eJ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 1
+	},
+/obj/structure/chair/office,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"eT" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"eY" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"fo" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/machinery/airalarm/directional/north,
+/obj/structure/closet,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"ft" = (
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"fY" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 4
+	},
+/obj/machinery/defibrillator_mount/charging/loaded/directional/north,
+/obj/structure/table/optable,
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"fZ" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"gf" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"gu" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"gv" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"gz" = (
+/obj/effect/turf_decal/vg_decals/atmos/nitrogen{
+	dir = 4
+	},
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"gC" = (
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"gP" = (
+/obj/effect/turf_decal/tile/brown/half{
+	dir = 1
+	},
+/obj/structure/glowshroom/single,
+/obj/structure/table,
+/obj/item/circuitboard/computer/arcade/battle{
+	pixel_x = 7;
+	pixel_y = -2
+	},
+/obj/item/circuitboard/machine/autolathe{
+	pixel_y = 5
+	},
+/obj/item/circuitboard/machine/vending{
+	pixel_y = 12;
+	pixel_x = -8
+	},
+/obj/machinery/airalarm/directional/north,
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"hd" = (
+/obj/structure/bed,
+/obj/item/bedsheet/red,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"hh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"hn" = (
+/obj/structure/table/glass,
+/obj/machinery/microwave{
+	pixel_y = 5
+	},
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"hJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"hO" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/atmos/glass{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"hV" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"ic" = (
+/obj/structure/mirror/directional/north,
+/obj/structure/sink/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/freezer/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"if" = (
+/obj/structure/sign/warning/vacuum/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/airalarm/directional/east,
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"ij" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"im" = (
+/obj/effect/turf_decal/tile/brown/half{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/miner,
+/obj/item/flashlight/lantern,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"iB" = (
+/obj/item/circuitboard/machine/vending,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"iK" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"iP" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"iY" = (
+/obj/machinery/atmospherics/components/tank/air,
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"jj" = (
+/obj/machinery/door/airlock/public/glass{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/structure/cable,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"jo" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"jw" = (
+/obj/item/stack/sheet/iron/ten,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"jz" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"jK" = (
+/obj/structure/table/glass,
+/obj/item/clothing/head/utility/chefhat,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"kc" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"kf" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"kn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"kr" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"kF" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"kL" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"kQ" = (
+/obj/machinery/door/airlock/hydroponics/glass,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"kR" = (
+/obj/structure/bookcase/manuals/botany,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"kU" = (
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"kY" = (
+/obj/structure/glowshroom/single,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"lc" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"lx" = (
+/obj/effect/turf_decal/tile/brown/half/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"lK" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"lM" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"lN" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"mq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/table,
+/obj/item/storage/medkit/o2{
+	pixel_y = 3
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"mr" = (
+/obj/machinery/door/airlock/external,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"mB" = (
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/obj/structure/lattice,
+/turf/template_noop,
+/area/ruin/space/vox_trader/close)
+"mF" = (
+/obj/structure/glowshroom/single,
+/obj/effect/turf_decal/tile/blue/half/contrasted,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"mI" = (
+/obj/structure/reagent_dispensers/watertank,
+/obj/item/reagent_containers/cup/watering_can,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"mM" = (
+/obj/effect/turf_decal/tile/brown/half/contrasted,
+/obj/structure/rack,
+/obj/structure/glowshroom/single,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"mR" = (
+/obj/effect/turf_decal/vg_decals/atmos/nitrogen,
+/obj/structure/glowshroom/single,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"mT" = (
+/obj/structure/rack,
+/obj/item/stock_parts/power_store/cell,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"nh" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"ni" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"nl" = (
+/obj/structure/lattice,
+/obj/structure/marker_beacon/cerulean,
+/turf/template_noop,
+/area/template_noop)
+"nx" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"nH" = (
+/obj/structure/toilet{
+	pixel_y = 8;
+	dir = 4
+	},
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/freezer/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"nS" = (
+/obj/effect/turf_decal/box,
+/obj/effect/spawner/random/structure/crate,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"nW" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"oi" = (
+/obj/machinery/space_heater,
+/obj/structure/glowshroom/single,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"oj" = (
+/obj/structure/door_assembly/door_assembly_mai,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"ol" = (
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"oq" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"ow" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"oB" = (
+/obj/machinery/door/airlock/maintenance,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"oE" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 4
+	},
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"pf" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"pD" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"pJ" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"pU" = (
+/obj/effect/turf_decal/box,
+/obj/effect/spawner/random/structure/crate,
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"qp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"qz" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/closet/secure_closet/hydroponics,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"qA" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/caution{
+	pixel_y = -6
+	},
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"qE" = (
+/obj/structure/glowshroom/single,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"qG" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"qN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/glowshroom/single,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/smooth_half/atmos/nitrogen{
+	dir = 8
+	},
+/area/ruin/space/has_grav/vox_trader/botany)
+"qP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"ra" = (
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/trimline/green/line{
+	dir = 6
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"rf" = (
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"rj" = (
+/obj/structure/cable,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"rx" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"rC" = (
+/obj/structure/glowshroom/single,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"rH" = (
+/turf/open/misc/asteroid/atmos/nitrogen,
+/area/ruin/space/vox_trader)
+"sa" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"sc" = (
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/trimline/green/line{
+	dir = 5
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"se" = (
+/obj/structure/safe,
+/obj/item/stack/sheet/mineral/gold/five,
+/obj/item/stack/sheet/mineral/diamond/five,
+/obj/item/stack/sheet/mineral/silver{
+	amount = 5
+	},
+/obj/item/stack/spacecash/c1000,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"sh" = (
+/obj/effect/turf_decal/tile/brown/half{
+	dir = 4
+	},
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"si" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/grille/broken,
+/obj/effect/spawner/random/maintenance/two,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"sk" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"sn" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/emergency,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"sA" = (
+/turf/closed/mineral/random/high_chance,
+/area/ruin/space/vox_trader)
+"sD" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"sL" = (
+/obj/effect/turf_decal/box,
+/obj/structure/closet/crate/hydroponics,
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"sP" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"sT" = (
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/mining,
+/obj/structure/cable,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"td" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/medical)
+"te" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"ti" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"tn" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"ty" = (
+/obj/effect/spawner/random/structure/closet_private,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"tE" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"tL" = (
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/trimline/green/line{
+	dir = 9
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"tY" = (
+/obj/machinery/atmospherics/components/binary/pump/on/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"ur" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"uu" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"uv" = (
+/obj/item/storage/bag/trash{
+	pixel_x = -10;
+	pixel_y = 6
+	},
+/obj/effect/spawner/random/trash/mess,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"uz" = (
+/obj/machinery/vending/dinnerware,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"uT" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 1
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"vn" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"vu" = (
+/turf/closed/wall,
+/area/ruin/space/vox_trader/ruin)
+"vF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"vR" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"vU" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/graffiti,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"vW" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/spider/stickyweb,
+/obj/item/stack/cable_coil,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"wq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"wr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/vox_trader/close)
+"wB" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"wD" = (
+/obj/structure/lattice,
+/obj/structure/marker_beacon/burgundy{
+	name = "landing marker"
+	},
+/turf/template_noop,
+/area/ruin/space/vox_trader/close)
+"wL" = (
+/obj/structure/chair/office,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"wV" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"wW" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"xd" = (
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"xj" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"xk" = (
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"xq" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"xA" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"xT" = (
+/obj/machinery/seed_extractor,
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"xZ" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"yi" = (
+/obj/effect/turf_decal/tile/brown/half{
+	dir = 1
+	},
+/obj/structure/frame/machine,
+/obj/item/stack/cable_coil,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"yp" = (
+/obj/structure/cable,
+/obj/machinery/power/smes/full,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"yO" = (
+/obj/structure/door_assembly/door_assembly_ext,
+/turf/template_noop,
+/area/template_noop)
+"za" = (
+/obj/structure/frame/machine,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"zg" = (
+/obj/machinery/processor,
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"zn" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "vox_trader"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"zs" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/box,
+/obj/structure/closet/crate/radiation,
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"zv" = (
+/obj/effect/spawner/random/structure/barricade,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"zz" = (
+/obj/machinery/chem_master/condimaster{
+	desc = "Used to separate out liquids - useful for purifying botanical extracts. Also dispenses condiments.";
+	name = "BrewMaster 2199"
+	},
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"zT" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"zY" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Ax" = (
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted{
+	dir = 8
+	},
+/obj/structure/closet/secure_closet/miner,
+/obj/item/flashlight/lantern,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"Az" = (
+/mob/living/basic/spider/giant,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"AB" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"AK" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"AM" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"AR" = (
+/obj/docking_port/stationary/vox_trader,
+/turf/template_noop,
+/area/template_noop)
+"Bm" = (
+/obj/structure/glowshroom/single,
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"BB" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/red{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"BU" = (
+/obj/structure/lattice,
+/turf/closed/indestructible/grille,
+/area/ruin/space/vox_trader/close)
+"Cb" = (
+/obj/effect/spawner/random/vending/colavend,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Cp" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"Cv" = (
+/turf/closed/wall/rock,
+/area/ruin/space/vox_trader)
+"Cy" = (
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"CB" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"CG" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/obj/machinery/vending/medical,
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"CP" = (
+/obj/effect/turf_decal/tile/brown/half{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/item/vending_refill/boozeomat,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"CX" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Dc" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Dr" = (
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/structure/crate,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Du" = (
+/obj/machinery/smartfridge,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"Dv" = (
+/obj/effect/turf_decal/caution{
+	pixel_y = -6
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 1
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Dy" = (
+/obj/machinery/door/airlock/glass,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"DA" = (
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "vox_trader"
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"DF" = (
+/obj/machinery/door/airlock/external,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"DW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Eo" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"Et" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/access)
+"Ey" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"EO" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"EX" = (
+/obj/machinery/shower/directional/east,
+/obj/structure/curtain,
+/obj/item/soap/deluxe,
+/turf/open/floor/iron/freezer/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"EY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Fv" = (
+/obj/item/wrench,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"FB" = (
+/obj/structure/glowshroom/single,
+/obj/structure/closet,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"FD" = (
+/turf/open/floor/iron/dark/smooth_half/atmos/nitrogen{
+	dir = 8
+	},
+/area/ruin/space/has_grav/vox_trader/botany)
+"FF" = (
+/obj/effect/turf_decal/tile/brown/half{
+	dir = 8
+	},
+/obj/machinery/power/floodlight,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"FG" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"FL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"FM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/door/airlock,
+/turf/open/floor/iron/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"FO" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/item/storage/medkit/o2{
+	pixel_y = 3
+	},
+/obj/item/storage/medkit/toxin{
+	pixel_y = 10
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"Ge" = (
+/obj/structure/cable,
+/obj/structure/glowshroom/single,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Gf" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"Gz" = (
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"GG" = (
+/obj/structure/cable,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"GJ" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"GM" = (
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"GW" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"GX" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"GY" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"Hf" = (
+/obj/structure/sign/warning/secure_area/directional/south,
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"Hk" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/item/storage/toolbox/electrical,
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/north,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 12
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"Hn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/rack_parts,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"Hr" = (
+/obj/effect/turf_decal/tile/brown/anticorner/contrasted,
+/obj/machinery/power/floodlight,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"Hu" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"HC" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"HP" = (
+/obj/effect/turf_decal/tile/brown/half/contrasted,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"HZ" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"Ik" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"Ir" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 8
+	},
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"Iw" = (
+/obj/effect/spawner/random/vending/snackvend,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"IR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/table/glass,
+/obj/item/reagent_containers/cup/beaker/large{
+	pixel_y = 6;
+	pixel_x = 3
+	},
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -11;
+	pixel_y = 5
+	},
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"IX" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/public/glass,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"IZ" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"Jp" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/box,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Ko" = (
+/obj/machinery/portable_atmospherics/scrubber,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"Kv" = (
+/obj/structure/table/reinforced,
+/obj/structure/desk_bell,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Kz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/glowshroom/single,
+/obj/structure/cable,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"KA" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"KB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb,
+/obj/structure/closet/crate,
+/obj/item/vending_refill/security,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"KI" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"KP" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/botany)
+"KQ" = (
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/spawner/random/maintenance,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Lb" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/item/storage/medkit/regular{
+	pixel_y = 4
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"Lk" = (
+/obj/machinery/biogenerator,
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"Ln" = (
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"Lp" = (
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"LB" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"LN" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/vox_trader/close)
+"LP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/structure/glowshroom/single,
+/obj/structure/cable,
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"LS" = (
+/obj/structure/cable,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Mk" = (
+/obj/structure/sign/warning/vacuum/directional/north,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/iron/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"Mz" = (
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"MF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"MH" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/caution{
+	dir = 1
+	},
+/obj/structure/glowshroom/single,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"MY" = (
+/obj/machinery/vending/tool,
+/turf/open/floor/iron/textured_large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"Nd" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
+"Nl" = (
+/obj/structure/disposalpipe/trunk{
+	dir = 4
+	},
+/obj/structure/disposaloutlet{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/vox_trader/close)
+"No" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"Ny" = (
+/obj/structure/table/reinforced,
+/obj/structure/plasticflaps,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"NL" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/dark/smooth_half/atmos/nitrogen{
+	dir = 8
+	},
+/area/ruin/space/has_grav/vox_trader/botany)
+"NM" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 8
+	},
+/obj/machinery/computer/atmos_control/trader_nitrogren{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"NZ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"Od" = (
+/obj/effect/spawner/random/structure/closet_private,
+/obj/structure/glowshroom/single,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"Oo" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"OA" = (
+/obj/effect/turf_decal/tile/yellow/half/contrasted,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 1
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"OB" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/vg_decals/atmos/oxygen,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"OI" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"OK" = (
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"OL" = (
+/obj/structure/sign/warning/secure_area/directional/east,
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"OP" = (
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"OY" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Pi" = (
+/obj/item/weldingtool,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"Pm" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"PF" = (
+/obj/structure/bedsheetbin,
+/obj/structure/table/wood,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"PQ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"PS" = (
+/obj/machinery/door/airlock/public{
+	dir = 4;
+	name = "Bathroom"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/freezer/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"Qh" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"QF" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/vox_trader/close)
+"QH" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"QM" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder{
+	pixel_y = 9
+	},
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"QN" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/hallway)
+"QP" = (
+/turf/template_noop,
+/area/template_noop)
+"QQ" = (
+/turf/closed/wall/r_wall,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"QS" = (
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"QW" = (
+/obj/machinery/atmospherics/components/binary/pump/on/layer4{
+	dir = 4
+	},
+/turf/open/misc/asteroid/atmos/airless,
+/area/ruin/space/vox_trader)
+"Rm" = (
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/trimline/green/line{
+	dir = 10
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"Rx" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"RL" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/effect/turf_decal/tile/brown{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"RQ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"RS" = (
+/obj/structure/closet/secure_closet/hydroponics,
+/turf/open/floor/iron/dark/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"RT" = (
+/obj/effect/turf_decal/vg_decals/atmos/nitrogen,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Se" = (
+/obj/effect/turf_decal/box,
+/obj/effect/spawner/random/structure/closet_empty/crate,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"SN" = (
+/obj/machinery/door/airlock/service/glass,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"SP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Tm" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 8
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"To" = (
+/obj/effect/turf_decal/tile/brown/half{
+	dir = 8
+	},
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"Tp" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/turf/open/floor/iron/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"Ty" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"TD" = (
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/machinery/door/airlock/maintenance{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"TE" = (
+/obj/machinery/atmospherics/miner/nitrogen,
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"TX" = (
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Ua" = (
+/obj/structure/barricade/wooden/crude,
+/obj/structure/grille,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"Uh" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 4
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"Un" = (
+/obj/machinery/power/port_gen/pacman,
+/obj/structure/cable,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"Up" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 4
+	},
+/turf/open/floor/iron/freezer/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"Uw" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"UG" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"UH" = (
+/obj/structure/lattice,
+/obj/item/stack/rods,
+/turf/template_noop,
+/area/ruin/space/vox_trader/close)
+"UZ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 8
+	},
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"Vf" = (
+/obj/effect/turf_decal/tile/brown/fourcorners,
+/obj/machinery/door/airlock/mining{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/sepia/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/mining)
+"Vu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Vy" = (
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/trimline/green/line{
+	dir = 4
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"VC" = (
+/obj/effect/turf_decal/box/red,
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/trader_nitrogren{
+	dir = 4
+	},
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"VN" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/smooth_half/atmos/nitrogen{
+	dir = 8
+	},
+/area/ruin/space/has_grav/vox_trader/botany)
+"VQ" = (
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"VV" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"VX" = (
+/obj/machinery/door/airlock/maintenance{
+	dir = 4
+	},
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"We" = (
+/obj/machinery/growing/tray,
+/obj/effect/turf_decal/trimline/green/line{
+	dir = 8
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"Wm" = (
+/obj/machinery/door/airlock/external{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
+	cycle_id = "vox_trading_floor"
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"WI" = (
+/obj/effect/turf_decal/tile/blue/anticorner/contrasted{
+	dir = 8
+	},
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"WY" = (
+/obj/structure/cable,
+/obj/structure/closet/crate/engineering/electrical,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/glowshroom/single,
+/obj/effect/turf_decal/tile/yellow/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"Xh" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/no_charge,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"Xp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"Xu" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 4
+	},
+/obj/structure/glowshroom/single,
+/turf/open/floor/iron/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/access)
+"XA" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/botany)
+"XB" = (
+/obj/effect/turf_decal/caution{
+	pixel_y = -6
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"XE" = (
+/mob/living/basic/spider/giant,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/maintenance)
+"XJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"XS" = (
+/obj/effect/turf_decal/tile/blue/half/contrasted{
+	dir = 4
+	},
+/obj/machinery/iv_drip,
+/obj/item/reagent_containers/blood/o_minus,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/white/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/medical)
+"Yi" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Yj" = (
+/turf/open/floor/iron/diagonal/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Yn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/structure/table,
+/obj/item/storage/medkit/o2{
+	pixel_y = 3
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"Yr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/kitchen/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/kitchen)
+"Yu" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/vox_trader/visitation)
+"YB" = (
+/obj/machinery/space_heater,
+/turf/open/floor/iron/large/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
+"YF" = (
+/obj/effect/turf_decal/tile/brown,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/sign/warning/vacuum/directional/south,
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"YJ" = (
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor,
+/area/ruin/space/vox_trader/close)
+"YX" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/mining)
+"Zm" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/machinery/door/firedoor,
+/turf/open/floor/iron/small/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"Zw" = (
+/turf/closed/wall,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"ZE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/glowshroom/single,
+/turf/open/floor/plating/airless,
+/area/ruin/space/vox_trader/ruin)
+"ZK" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
+"ZX" = (
+/obj/item/clothing/head/utility/welding,
+/turf/template_noop,
+/area/template_noop)
+
+(1,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QQ
+QQ
+QQ
+QQ
+QQ
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(2,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QQ
+bL
+TE
+bL
+QQ
+QP
+vu
+vu
+BU
+bi
+QP
+eh
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(3,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+sA
+sA
+sA
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QQ
+bL
+gz
+bL
+QQ
+YJ
+vu
+jw
+eh
+QP
+QP
+yO
+eh
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(4,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+sA
+sA
+sA
+rH
+rH
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QQ
+bL
+VC
+bL
+QQ
+wr
+vu
+rC
+Hn
+UH
+eh
+QP
+ZX
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(5,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+sA
+sA
+rH
+rH
+QP
+QP
+QP
+QP
+QP
+QP
+QQ
+QQ
+QQ
+jz
+ow
+jz
+QQ
+dz
+QQ
+Fv
+bN
+bN
+ij
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(6,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+cc
+QQ
+YB
+YB
+Bm
+NM
+wB
+kr
+iK
+QQ
+Xh
+FL
+ZE
+vu
+QP
+mB
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(7,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+cc
+cc
+QQ
+Ko
+Ko
+be
+tY
+sP
+iK
+iK
+QQ
+rf
+rf
+Pi
+vu
+QP
+eh
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(8,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+sA
+sA
+QP
+QP
+QP
+QP
+QP
+cc
+Zw
+Zw
+Zw
+QQ
+Un
+Tm
+Gz
+sD
+mF
+KA
+eY
+eY
+lM
+TD
+lM
+lM
+lM
+lM
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(9,1,1) = {"
+QP
+QP
+QP
+QP
+sA
+sA
+sA
+sA
+QP
+QP
+QP
+cc
+cc
+Zw
+EX
+nH
+QQ
+Hk
+Cy
+Cy
+sD
+OA
+aq
+eY
+QS
+iP
+Ge
+iP
+OY
+sn
+AM
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(10,1,1) = {"
+QP
+QP
+QP
+sA
+sA
+rH
+rH
+QP
+QP
+QP
+QP
+cc
+cc
+Zw
+ic
+Up
+QQ
+yp
+WY
+vn
+No
+GY
+MY
+eY
+df
+ol
+Jp
+Se
+GJ
+VQ
+AM
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(11,1,1) = {"
+QP
+QP
+QP
+sA
+sA
+rH
+QP
+QP
+QP
+QP
+cc
+cc
+Zw
+Zw
+Zw
+PS
+QQ
+QQ
+QQ
+Uw
+hO
+Uw
+QQ
+eY
+Oo
+nS
+zs
+Se
+eT
+Hu
+AM
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(12,1,1) = {"
+QP
+QP
+QP
+sA
+sA
+QP
+QP
+QP
+QP
+QP
+cc
+cc
+Zw
+hd
+xd
+Ik
+PF
+Zw
+Ln
+QN
+QN
+kc
+kc
+IX
+RL
+Yi
+tn
+RQ
+YF
+lM
+lM
+lM
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(13,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+Zw
+Od
+eI
+wV
+ZK
+dm
+kc
+kc
+Ln
+xq
+Ln
+Zm
+qG
+ni
+xk
+bS
+Dc
+zn
+Dv
+DA
+AR
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(14,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+Zw
+ty
+xd
+Ty
+rj
+Zw
+xq
+kc
+KP
+KP
+KP
+lM
+AK
+sL
+pU
+KQ
+QH
+aj
+mR
+DA
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(15,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+Zw
+BB
+xd
+Ty
+aQ
+Zw
+Ln
+QN
+KP
+kR
+mI
+lM
+lM
+lM
+lM
+lM
+lM
+lM
+lM
+lM
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(16,1,1) = {"
+QP
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+Zw
+se
+xd
+UZ
+dy
+Zw
+Ln
+QN
+KP
+RS
+ti
+FD
+FD
+FD
+FD
+FD
+FD
+FD
+XA
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(17,1,1) = {"
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+Zw
+Zw
+Zw
+Zw
+Zw
+Zw
+Ln
+QN
+KP
+qz
+Mz
+lN
+ai
+tL
+We
+We
+Rm
+kU
+XA
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(18,1,1) = {"
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+td
+Lb
+FO
+HZ
+WI
+gf
+Ln
+GX
+XA
+OI
+Mz
+vF
+xT
+sc
+Vy
+Vy
+ra
+xZ
+XA
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(19,1,1) = {"
+QP
+QP
+QP
+cc
+cc
+cc
+OP
+OP
+cc
+cc
+cc
+cc
+td
+xA
+lc
+LP
+dQ
+eo
+kc
+QN
+kQ
+kL
+wq
+VN
+VN
+VN
+qN
+VN
+VN
+VN
+KI
+KI
+KI
+ew
+ew
+ew
+QP
+QP
+QP
+Nl
+"}
+(20,1,1) = {"
+QP
+QP
+QP
+cc
+cc
+OP
+OP
+OP
+OP
+cc
+cc
+cc
+td
+fY
+XS
+Cp
+CG
+gf
+Ln
+qP
+XA
+Mz
+ti
+Xp
+Lk
+tL
+We
+We
+Rm
+kn
+KI
+aK
+aK
+Lp
+nW
+VV
+LN
+LN
+LN
+QF
+"}
+(21,1,1) = {"
+QP
+QP
+QP
+QP
+OP
+OP
+OP
+OP
+OP
+cc
+cc
+YX
+YX
+YX
+YX
+YX
+YX
+YX
+Ln
+qP
+KP
+bc
+Mz
+gv
+QM
+sc
+Vy
+Vy
+ra
+kn
+KI
+kF
+vR
+zT
+zg
+ew
+QP
+eh
+QP
+eh
+"}
+(22,1,1) = {"
+QP
+QP
+QP
+QP
+OP
+OP
+OP
+cc
+cc
+cc
+cc
+YX
+Hr
+FF
+To
+bQ
+aO
+YX
+te
+qP
+KP
+dV
+Mz
+NL
+FD
+FD
+FD
+FD
+FD
+VN
+SN
+GW
+Yr
+NZ
+jK
+KI
+cc
+wD
+eh
+wD
+"}
+(23,1,1) = {"
+QP
+QP
+QP
+QP
+OP
+OP
+cc
+cc
+cc
+cc
+cc
+YX
+yi
+OK
+OK
+oE
+mM
+YX
+Ln
+qP
+Eo
+Eo
+Eo
+Eo
+Eo
+Eo
+Eo
+VX
+Eo
+Eo
+Eo
+Lp
+IR
+Lp
+hn
+KI
+cc
+cc
+QP
+eh
+"}
+(24,1,1) = {"
+QP
+QP
+QP
+QP
+OP
+Hf
+Cv
+cc
+cc
+cc
+cc
+YX
+gP
+OK
+OK
+wW
+HP
+YX
+Ln
+Kz
+oB
+gC
+FG
+FG
+xj
+FG
+gC
+FG
+xj
+gC
+Eo
+rx
+Ir
+vR
+hn
+KI
+cc
+cc
+QP
+eh
+"}
+(25,1,1) = {"
+QP
+QP
+QP
+QP
+OP
+OP
+cc
+cc
+cc
+cc
+cc
+YX
+im
+OK
+gu
+wW
+lx
+sT
+qP
+qP
+Eo
+gC
+Eo
+Eo
+mT
+bh
+LB
+FG
+IZ
+oi
+Eo
+uz
+zz
+Du
+KI
+KI
+cc
+cc
+cc
+eh
+"}
+(26,1,1) = {"
+QP
+QP
+QP
+QP
+OP
+OP
+cc
+cc
+cc
+cc
+cc
+YX
+Ax
+sh
+sh
+CP
+cZ
+YX
+Ln
+hJ
+Eo
+FG
+xj
+Eo
+Eo
+Eo
+Eo
+Eo
+Eo
+Eo
+Eo
+KI
+KI
+KI
+KI
+cc
+cc
+cc
+cc
+cc
+"}
+(27,1,1) = {"
+QP
+QP
+QP
+QP
+OP
+OP
+Et
+Et
+Et
+Et
+Et
+Et
+YX
+YX
+Vf
+YX
+YX
+YX
+do
+jj
+Eo
+gC
+gC
+oj
+Ua
+si
+XE
+Eo
+uv
+FG
+GM
+za
+Eo
+iY
+OP
+cc
+cc
+cc
+cc
+cc
+"}
+(28,1,1) = {"
+QP
+QP
+QP
+cc
+OP
+OP
+Et
+Uh
+Et
+Mk
+Xu
+Et
+xk
+xk
+xk
+xk
+xk
+xk
+bS
+Vu
+Eo
+gC
+HC
+Eo
+Eo
+vW
+vU
+zv
+iB
+Az
+KB
+Eo
+Eo
+Gf
+OP
+OP
+cc
+cc
+cc
+cc
+"}
+(29,1,1) = {"
+QP
+QP
+cc
+cc
+OP
+OP
+pD
+MH
+qp
+tE
+tE
+FM
+Vu
+hh
+Vu
+Vu
+Vu
+Vu
+Vu
+Vu
+oB
+xj
+Eo
+Eo
+nh
+nh
+nh
+nh
+nh
+nh
+nh
+nh
+cc
+Gf
+Gf
+OP
+cc
+cc
+cc
+cc
+"}
+(30,1,1) = {"
+QP
+QP
+cc
+OP
+OP
+OP
+Et
+UG
+Et
+if
+Tp
+Et
+xk
+Qh
+GG
+Dr
+xk
+CB
+xk
+tn
+Eo
+Eo
+Eo
+nh
+nh
+uu
+bA
+zY
+Cb
+Iw
+nh
+cc
+cc
+cc
+QW
+OP
+OP
+cc
+cc
+QP
+"}
+(31,1,1) = {"
+QP
+QP
+cc
+OP
+OP
+OL
+Et
+Et
+Et
+Et
+Et
+Et
+xk
+pJ
+GG
+ur
+xk
+pJ
+xk
+tn
+ej
+Yj
+Yj
+Yj
+Ny
+ft
+ft
+ft
+ft
+ft
+nh
+nh
+nh
+nh
+Gf
+OP
+OP
+OP
+Cv
+QP
+"}
+(32,1,1) = {"
+QP
+QP
+cc
+cc
+OP
+Cv
+cc
+cc
+cc
+cc
+cc
+lM
+xk
+jo
+GG
+CB
+xk
+Dr
+xk
+cT
+Dy
+PQ
+kY
+eJ
+Ny
+ft
+ft
+Yu
+ft
+ft
+nx
+SP
+XJ
+nx
+Gf
+Gf
+Gf
+OP
+OP
+nl
+"}
+(33,1,1) = {"
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+lM
+qE
+GG
+GG
+xk
+sk
+xk
+xk
+xk
+ej
+LS
+MF
+hV
+nh
+Kv
+ft
+sa
+ft
+ft
+nx
+EY
+Pm
+nh
+nh
+nh
+Gf
+OP
+OP
+QP
+"}
+(34,1,1) = {"
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+lM
+lM
+lM
+lM
+lM
+lM
+lM
+lM
+lM
+nh
+fZ
+MF
+wL
+Ny
+ft
+ft
+bk
+bk
+bk
+DF
+bk
+bk
+mr
+EO
+mr
+AB
+OP
+OP
+QP
+"}
+(35,1,1) = {"
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+nh
+fo
+qA
+TX
+Ny
+XB
+ft
+Ey
+ft
+ft
+nx
+dj
+Rx
+nh
+nh
+nh
+kf
+OP
+QP
+QP
+"}
+(36,1,1) = {"
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+nh
+FB
+OB
+hV
+nh
+RT
+CX
+CX
+CX
+CX
+nx
+Yn
+mq
+nx
+OP
+OP
+cx
+OP
+Nd
+nl
+"}
+(37,1,1) = {"
+QP
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+nh
+nh
+aX
+oq
+nh
+Wm
+nh
+nh
+nx
+nx
+nh
+nx
+nx
+nx
+OP
+OP
+QP
+Nd
+QP
+QP
+"}
+(38,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+nh
+pf
+uT
+lK
+DW
+nh
+cc
+QP
+QP
+cc
+OP
+OP
+OP
+OP
+QP
+QP
+nl
+QP
+QP
+"}
+(39,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+nh
+nh
+nh
+nh
+nh
+nh
+cc
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}
+(40,1,1) = {"
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+cc
+cc
+cc
+QP
+QP
+QP
+cc
+cc
+cc
+cc
+cc
+cc
+cc
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+QP
+"}

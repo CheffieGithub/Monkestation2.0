@@ -1,10 +1,10 @@
+MAPPING_GASMIX_HELPERS(/turf/open/floor/plating)
 
 /turf/open/floor/plating/airless
 	initial_gas_mix = AIRLESS_ATMOS
 
 /turf/open/floor/plating/lowpressure
 	initial_gas_mix = OPENTURF_LOW_PRESSURE
-	baseturfs = /turf/open/floor/plating/lowpressure
 
 /turf/open/floor/plating/icemoon
 	icon_state = "plating"

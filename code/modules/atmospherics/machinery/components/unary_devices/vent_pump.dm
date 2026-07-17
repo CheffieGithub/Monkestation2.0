@@ -1,11 +1,10 @@
 #define NO_BOUND 3
 
 /obj/machinery/atmospherics/components/unary/vent_pump
-	icon_state = "vent_map-3"
 
 	name = "air vent"
 	desc = "Has a valve and pump attached to it."
-
+	icon_state = "vent_map-3"
 	construction_type = /obj/item/pipe/directional/vent
 	use_power = IDLE_POWER_USE
 	idle_power_usage = BASE_MACHINE_IDLE_CONSUMPTION * 0.15

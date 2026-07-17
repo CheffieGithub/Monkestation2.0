@@ -70,6 +70,11 @@
 "x" = (
 /turf/template_noop,
 /area/template_noop)
+"z" = (
+/obj/machinery/door/airlock/shuttle,
+/obj/structure/fans/tiny,
+/turf/open/floor/iron/large,
+/area/shuttle/vox_trader)
 "B" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters{
@@ -87,6 +92,8 @@
 /area/shuttle/vox_trader)
 "E" = (
 /obj/machinery/door/airlock/shuttle,
+/obj/docking_port/mobile/vox_shuttle,
+/obj/structure/fans/tiny,
 /turf/open/floor/iron/large,
 /area/shuttle/vox_trader)
 "G" = (
@@ -225,7 +232,7 @@ D
 a
 "}
 (9,1,1) = {"
-E
+z
 D
 D
 N

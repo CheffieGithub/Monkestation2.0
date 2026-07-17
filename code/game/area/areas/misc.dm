@@ -24,11 +24,11 @@
 	. = ..()
 	set_base_lighting(GLOB.starlight_color, alpha)
 
-
 /area/space/nearstation
 	icon_state = "space_near"
 	area_flags = UNIQUE_AREA | AREA_USES_STARLIGHT
 	static_lighting = TRUE
+
 /area/misc/start
 	name = "start area"
 	icon_state = "start"

@@ -104,6 +104,10 @@
 	name = "ordnance freezer chamber output inlet"
 	chamber_id = ATMOS_GAS_MONITOR_ORDNANCE_FREEZER
 
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/trader_nitrogren
+	name = "trading post supply output inlet"
+	chamber_id = "trader-n2"
+
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/monitored
 	on = TRUE
 	icon_state = "vent_map_siphon_on-3"

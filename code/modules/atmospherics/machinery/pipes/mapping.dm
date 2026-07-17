@@ -26,6 +26,7 @@
 		icon_state = Iconbase + "-5"; \
 	} \
 	##Fulltype/hidden { \
+		alpha = MAP_SWITCH(255, 120); \
 		hide = TRUE; \
 	} \
 	##Fulltype/hidden/layer2 { \
