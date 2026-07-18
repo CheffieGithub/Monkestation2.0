@@ -101,3 +101,7 @@
 /obj/machinery/air_sensor/engine_chamber
 	name = "supermatter engine chamber gas sensor"
 	chamber_id = ATMOS_GAS_MONITOR_ENGINE
+
+/obj/machinery/air_sensor/trader_nitrogen
+	name = "trading post nitrogen chamber gas sensor"
+	chamber_id = "trader_n2"

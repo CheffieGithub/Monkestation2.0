@@ -126,8 +126,8 @@
 		ATMOS_GAS_MONITOR_ORDNANCE_FREEZER = "Ordnance Freezer Chamber",
 	)
 
-/obj/machinery/computer/atmos_control/trader_nitrogren
+/obj/machinery/computer/atmos_control/trader_nitrogen
 	name = "trading outpost gas control"
 	atmos_chambers = list(
-		"trader-n2" = "Nitrogen Supply"
+		"trader_n2" = "Nitrogen Supply"
 	)

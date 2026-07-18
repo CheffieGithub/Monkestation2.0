@@ -1823,7 +1823,7 @@
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 8
 	},
-/obj/machinery/computer/atmos_control/trader_nitrogren{
+/obj/machinery/computer/atmos_control/trader_nitrogen{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible/layer4,
@@ -2225,7 +2225,7 @@
 /area/ruin/space/has_grav/vox_trader/botany)
 "VC" = (
 /obj/effect/turf_decal/box/red,
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/trader_nitrogren{
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/monitored/trader_nitrogen{
 	dir = 4
 	},
 /turf/open/floor/engine/vacuum,
@@ -2304,6 +2304,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/small/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/botany)
+"Xt" = (
+/obj/machinery/air_sensor/trader_nitrogen,
+/turf/open/floor/engine/vacuum,
+/area/ruin/space/has_grav/vox_trader/atmos)
 "Xu" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
 	dir = 4
@@ -2578,7 +2582,7 @@ QP
 QQ
 bL
 VC
-bL
+Xt
 QQ
 wr
 vu
