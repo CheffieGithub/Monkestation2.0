@@ -42,9 +42,11 @@ SUBSYSTEM_DEF(glowshrooms)
 				current_run_spread.len--
 				if(QDELETED(glowshroom))
 					glowshrooms -= glowshroom
+				else if(!glowshroom.spread_into_adjacent_chance)
+					continue
 				else if(COOLDOWN_FINISHED(glowshroom, spread_cooldown))
 					COOLDOWN_START(glowshroom, spread_cooldown, rand(glowshroom.min_delay_spread, glowshroom.max_delay_spread))
-					glowshroom.Spread(seconds_per_tick)
+					glowshroom.spread(seconds_per_tick)
 				if(MC_TICK_CHECK)
 					return
 		run_type = SSGLOWSHROOMS_RUN_TYPE_DECAY
@@ -56,8 +58,8 @@ SUBSYSTEM_DEF(glowshrooms)
 			current_run_decay.len--
 			if(QDELETED(glowshroom))
 				glowshrooms -= glowshroom
-			else
-				glowshroom.Decay(seconds_per_tick)
+			else if(glowshroom.endurance_decay_rate)
+				glowshroom.decay(seconds_per_tick)
 			if(MC_TICK_CHECK)
 				return
 		run_type = SSGLOWSHROOMS_RUN_TYPE_SPREAD

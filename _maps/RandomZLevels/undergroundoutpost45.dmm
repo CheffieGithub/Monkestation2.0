@@ -10185,7 +10185,7 @@
 /area/awaymission/undergroundoutpost45/caves)
 "Cd" = (
 /obj/structure/alien/weeds,
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
@@ -10531,7 +10531,7 @@
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "HW" = (
 /obj/structure/alien/weeds,
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
@@ -11371,7 +11371,7 @@
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "WE" = (
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";
@@ -11462,7 +11462,7 @@
 	},
 /area/awaymission/undergroundoutpost45/crew_quarters)
 "XQ" = (
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /turf/open/misc/asteroid{
 	heat_capacity = 1e+006;
 	initial_gas_mix = "co2=173.4;n2=135.1;plasma=229.8;TEMP=351.9";

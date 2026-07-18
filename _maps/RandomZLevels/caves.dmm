@@ -503,7 +503,7 @@
 	},
 /area/awaymission/caves/research)
 "cY" = (
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /turf/open/floor/iron,
 /area/awaymission/caves/research)
 "db" = (
@@ -1365,7 +1365,7 @@
 /turf/open/floor/iron,
 /area/awaymission/caves/northblock)
 "ra" = (
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /turf/open/misc/asteroid/basalt{
 	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
 	},

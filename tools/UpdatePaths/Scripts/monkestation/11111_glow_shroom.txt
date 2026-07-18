@@ -1,0 +1,1 @@
+/obj/structure/glowshroom/single : /obj/structure/glowshroom/single/no_decay{@OLD}

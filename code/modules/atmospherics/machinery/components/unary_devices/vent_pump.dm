@@ -150,13 +150,17 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/process_atmos()
 	if(!is_operational)
 		return
+
 	if(!nodes[1])
 		set_on(FALSE)
+
 	if(!on || welded)
 		return
+
 	var/turf/open/us = loc
 	if(!istype(us))
 		return
+
 	var/datum/gas_mixture/air_contents = airs[1]
 	var/datum/gas_mixture/environment = us.return_air()
 	var/environment_pressure = environment.return_pressure()

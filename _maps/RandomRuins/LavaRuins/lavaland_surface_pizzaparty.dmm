@@ -157,12 +157,12 @@
 /area/lavaland/surface/outdoors)
 "is" = (
 /obj/effect/mapping_helpers/burnt_floor,
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "iB" = (
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/blue/lavaland,
 /area/ruin/unpowered)
@@ -337,7 +337,7 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/burnt_floor,
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/blue/lavaland,
 /area/ruin/unpowered)
@@ -426,7 +426,7 @@
 /obj/effect/turf_decal/tile/yellow/diagonal_edge,
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /turf/open/floor/iron/diagonal/lavaland,
 /area/ruin/unpowered)
 "zf" = (
@@ -458,7 +458,7 @@
 /area/ruin/unpowered)
 "Ae" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
@@ -573,7 +573,7 @@
 /turf/open/floor/plating/lavaland_atmos,
 /area/ruin/unpowered)
 "Oa" = (
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/broken/directional/north,
 /obj/structure/sign/poster/party_game/directional/north,
@@ -697,7 +697,7 @@
 "YA" = (
 /obj/effect/turf_decal/tile/yellow/diagonal_edge,
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
-/obj/structure/glowshroom/single,
+/obj/structure/glowshroom/single/no_decay,
 /turf/open/floor/iron/diagonal/lavaland,
 /area/ruin/unpowered)
 "YU" = (
