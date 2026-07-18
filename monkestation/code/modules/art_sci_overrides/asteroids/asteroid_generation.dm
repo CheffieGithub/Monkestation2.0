@@ -2,6 +2,7 @@
 	explodable = TRUE
 	baseturfs = /turf/baseturf_bottom
 	turf_type = /turf/open/misc/asteroid/airless/tospace
+
 /// Breaks down to an asteroid floor that breaks down to space
 /turf/closed/mineral/random/asteroid/tospace
 	baseturfs = /turf/open/misc/asteroid/airless/tospace
