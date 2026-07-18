@@ -165,6 +165,10 @@
 	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
 	},
 /area/awaymission/caves/bmp_asteroid/level_three)
+"aN" = (
+/obj/effect/decal/cleanable/blood/gibs/robot_debris/old,
+/turf/open/floor/iron,
+/area/awaymission/caves/listeningpost)
 "aP" = (
 /obj/structure/ladder/unbreakable{
 	height = 1;
@@ -470,11 +474,6 @@
 	},
 /turf/closed/wall,
 /area/awaymission/caves/bmp_asteroid/level_two)
-"cN" = (
-/obj/machinery/door/window/left/directional/east,
-/obj/effect/decal/cleanable/xenoblood/xgibs,
-/turf/open/floor/plating,
-/area/awaymission/caves/research)
 "cP" = (
 /obj/machinery/door/airlock/external/ruin,
 /turf/open/floor/plating,
@@ -491,20 +490,12 @@
 	},
 /turf/open/floor/plating,
 /area/awaymission/caves/research)
-"cV" = (
-/obj/effect/decal/cleanable/xenoblood/xgibs,
-/turf/open/floor/plating,
-/area/awaymission/caves/research)
 "cX" = (
 /obj/structure/table,
 /obj/item/melee/baton/security,
 /turf/open/floor/iron{
 	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
 	},
-/area/awaymission/caves/research)
-"cY" = (
-/obj/structure/glowshroom/single/no_decay,
-/turf/open/floor/iron,
 /area/awaymission/caves/research)
 "db" = (
 /obj/structure/table,
@@ -727,10 +718,6 @@
 	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
 	},
 /area/awaymission/caves/northblock)
-"eg" = (
-/obj/effect/decal/cleanable/robot_debris/old,
-/turf/open/floor/iron,
-/area/awaymission/caves/listeningpost)
 "eh" = (
 /obj/structure/table,
 /obj/item/radio,
@@ -846,10 +833,6 @@
 /area/awaymission/caves/listeningpost)
 "eL" = (
 /obj/machinery/vending/sovietsoda,
-/turf/open/floor/iron,
-/area/awaymission/caves/listeningpost)
-"eN" = (
-/obj/effect/decal/cleanable/oil,
 /turf/open/floor/iron,
 /area/awaymission/caves/listeningpost)
 "eO" = (
@@ -1308,6 +1291,10 @@
 	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
 	},
 /area/awaymission/caves/bmp_asteroid)
+"nt" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/iron,
+/area/awaymission/caves/listeningpost)
 "nw" = (
 /obj/machinery/light/small/built/directional/east,
 /obj/structure/spider/stickyweb,
@@ -1364,12 +1351,6 @@
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/iron,
 /area/awaymission/caves/northblock)
-"ra" = (
-/obj/structure/glowshroom/single/no_decay,
-/turf/open/misc/asteroid/basalt{
-	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
-	},
-/area/awaymission/caves/bmp_asteroid/level_two)
 "rl" = (
 /obj/structure/closet/crate/miningcar{
 	name = "Mining cart"
@@ -1759,15 +1740,20 @@
 	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
 	},
 /area/awaymission/caves/bmp_asteroid/level_three)
-"JP" = (
-/obj/structure/window/reinforced/spawner/directional/east,
-/obj/effect/decal/cleanable/xenoblood,
-/turf/open/floor/plating,
+"JM" = (
+/obj/structure/glowshroom/single/no_decay,
+/turf/open/floor/iron,
 /area/awaymission/caves/research)
 "Kq" = (
 /obj/structure/sign/departments/exam_room/directional/north,
 /turf/open/floor/iron,
 /area/awaymission/caves/bmp_asteroid)
+"Kw" = (
+/obj/structure/glowshroom/single/no_decay,
+/turf/open/misc/asteroid/basalt{
+	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
+	},
+/area/awaymission/caves/bmp_asteroid/level_two)
 "KY" = (
 /obj/structure/table,
 /obj/item/paper/crumpled/awaymissions/caves/unsafe_area,
@@ -1789,6 +1775,10 @@
 	initial_gas_mix = "n2=23;o2=14;TEMP=2.7"
 	},
 /area/awaymission/caves/bmp_asteroid/level_two)
+"LL" = (
+/obj/effect/decal/cleanable/blood/gibs/xeno,
+/turf/open/floor/plating,
+/area/awaymission/caves/research)
 "Mk" = (
 /obj/machinery/light/small/built/directional/west,
 /turf/open/floor/wood,
@@ -1839,6 +1829,11 @@
 /obj/item/paper/fluff/awaymissions/caves/omega,
 /turf/open/floor/iron,
 /area/awaymission/caves/research)
+"NW" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/effect/decal/cleanable/blood/xeno,
+/turf/open/floor/plating,
+/area/awaymission/caves/research)
 "NX" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/misc/asteroid/basalt{
@@ -1871,6 +1866,11 @@
 	},
 /turf/open/floor/iron,
 /area/awaymission/caves/listeningpost)
+"Qd" = (
+/obj/machinery/door/window/left/directional/east,
+/obj/effect/decal/cleanable/blood/gibs/xeno,
+/turf/open/floor/plating,
+/area/awaymission/caves/research)
 "Qe" = (
 /mob/living/basic/bat{
 	desc = "A rare breed of bat which roosts deep in caves.";
@@ -9396,7 +9396,7 @@ cr
 cA
 OE
 cR
-cV
+LL
 cr
 cg
 bL
@@ -9650,11 +9650,11 @@ bL
 bL
 ch
 cs
-JP
-cN
+NW
+Qd
 cS
 Wx
-JP
+NW
 cg
 bL
 bL
@@ -10167,7 +10167,7 @@ cu
 cD
 cu
 cn
-cY
+JM
 cn
 dd
 cg
@@ -11474,7 +11474,7 @@ eH
 eL
 eJ
 eW
-eN
+nt
 eJ
 eO
 fh
@@ -11722,7 +11722,7 @@ BK
 BK
 bL
 eF
-eg
+aN
 lE
 eJ
 eJ
@@ -11981,7 +11981,7 @@ bL
 eG
 eh
 fm
-eg
+aN
 eJ
 eF
 eI
@@ -12242,7 +12242,7 @@ fm
 eJ
 eG
 eJ
-eN
+nt
 eJ
 eF
 sw
@@ -12761,7 +12761,7 @@ eJ
 eJ
 eJ
 eJ
-eN
+nt
 fh
 BK
 BK
@@ -53633,7 +53633,7 @@ bK
 bK
 oI
 oI
-ra
+Kw
 oI
 BQ
 MB
@@ -59024,7 +59024,7 @@ bK
 bK
 oI
 oI
-ra
+Kw
 oI
 bK
 bK
