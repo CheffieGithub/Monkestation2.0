@@ -8,6 +8,7 @@
 	init_air = FALSE
 	rad_insulation = RAD_MEDIUM_INSULATION
 	pass_flags_self = PASSCLOSEDTURF
+	smoothing_groups = SMOOTH_GROUP_CLOSED_TURFS
 
 //Monkestation edit start
 /turf/closed/examine(mob/user)

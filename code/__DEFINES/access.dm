@@ -190,6 +190,9 @@
 #define ACCESS_UNION "Union"
 #define ACCESS_UNION_LEADER "Union Leader"
 
+/// - - - RUINS
+#define ACCESS_VOX_TRADER "vox_trader"
+
 /// - - - ANTAGONIST - - -
 /// SYNDICATE
 #define ACCESS_SYNDICATE "syndicate"

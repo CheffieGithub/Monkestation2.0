@@ -969,3 +969,8 @@
 	var/list/access_list = ..()
 	access_list += ACCESS_CENT_BAR
 	return access_list
+
+/obj/effect/mapping_helpers/airlock/access/all/vox_trader/get_access()
+	var/list/access_list = ..()
+	access_list += ACCESS_VOX_TRADER
+	return access_list

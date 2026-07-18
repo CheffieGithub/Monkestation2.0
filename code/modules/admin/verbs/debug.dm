@@ -601,7 +601,7 @@ ADMIN_VERB(place_ruin, R_DEBUG, FALSE, "Spawn Ruin", "Attempt to randomly place 
 
 	var/list/names = list()
 	var/list/themed_names
-	for (var/theme in SSmapping.themed_ruins)
+	for(var/theme in SSmapping.themed_ruins)
 		names += "---- [theme] ----"
 		themed_names = list()
 		for (var/name in SSmapping.themed_ruins[theme])
@@ -609,22 +609,23 @@ ADMIN_VERB(place_ruin, R_DEBUG, FALSE, "Spawn Ruin", "Attempt to randomly place 
 			themed_names[name] = list(ruin, theme, list(ruin.default_area))
 		names += sort_list(themed_names)
 
-	var/ruinname = input(user, "Select ruin", "Spawn Ruin") as null | anything in names
+	var/ruinname = tgui_input_list(user, "Select ruin", "Spawn Ruin", names)
 	var/data = names[ruinname]
-	if (!data)
+	if(!data)
 		return
+
 	var/datum/map_template/ruin/template = data[1]
-	if (exists[template])
+	if(exists[template])
 		var/response = tgui_alert(user,"There is already a [template] in existence.", "Spawn Ruin", list("Jump", "Place Another", "Cancel"))
-		if (response == "Jump")
+		if(response == "Jump")
 			user.mob.forceMove(get_turf(exists[template]))
 			return
-		else if (response == "Cancel")
+		else if(response == "Cancel")
 			return
 
 	var/len = GLOB.ruin_landmarks.len
 	seedRuins(SSmapping.levels_by_trait(data[2]), max(1, template.cost), data[3], list(ruinname = template))
-	if (GLOB.ruin_landmarks.len > len)
+	if(GLOB.ruin_landmarks.len > len)
 		var/obj/effect/landmark/ruin/landmark = GLOB.ruin_landmarks[GLOB.ruin_landmarks.len]
 		log_admin("[key_name(user)] randomly spawned ruin [ruinname] at [COORD(landmark)].")
 		usr.forceMove(get_turf(landmark))

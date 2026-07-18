@@ -91,14 +91,19 @@
 /turf/open/floor/iron/large,
 /area/shuttle/vox_trader)
 "E" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/mineral/titanium/white,
+/area/shuttle/vox_trader)
+"F" = (
 /obj/machinery/door/airlock/shuttle,
-/obj/docking_port/mobile/vox_shuttle,
 /obj/structure/fans/tiny,
+/obj/docking_port/mobile/vox_shuttle,
 /turf/open/floor/iron/large,
 /area/shuttle/vox_trader)
 "G" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/mask/gas,
+/obj/machinery/light/floor/has_bulb,
 /turf/open/floor/mineral/titanium/tiled/yellow,
 /area/shuttle/vox_trader)
 "H" = (
@@ -197,7 +202,7 @@ j
 "}
 (5,1,1) = {"
 a
-l
+E
 l
 n
 l
@@ -223,7 +228,7 @@ H
 a
 "}
 (8,1,1) = {"
-E
+z
 D
 D
 D
@@ -232,7 +237,7 @@ D
 a
 "}
 (9,1,1) = {"
-z
+F
 D
 D
 N

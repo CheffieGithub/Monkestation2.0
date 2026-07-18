@@ -527,3 +527,9 @@
 	suffix = "shrimp.dmm"
 	name = "Shrimp Restaurant"
 	description = "An exquisite shrimp fried rice restaurant that mysteriously shut down a few days ago. Something about 'new ownership'."
+
+/datum/map_template/ruin/space/vox_trader
+	id = "vox_trader"
+	suffix = "vox_trader.dmm"
+	name = "Vox Trading Outpost"
+	description = "A rundown trading outpost run by space avians, will you get rich or starve trying?"

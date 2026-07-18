@@ -98,10 +98,10 @@
 	)
 
 /obj/docking_port/stationary/vox_trader
-	name = "trading post"
-	shuttle_id = "vox_trade_post"
-	roundstart_template = /datum/map_template/shuttle/infiltrator/advanced
-	dwidth = 2
-	dheight = 3
-	height =  7
+	name = "\improper Trading Post Cargo Dock"
+	shuttle_id = "vox_trader"
+	roundstart_template = /datum/map_template/shuttle/ruin/vox_trader
+	dir = SOUTH
+	dwidth = 3
+	height = 7
 	width = 12

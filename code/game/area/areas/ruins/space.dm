@@ -835,6 +835,9 @@
 /area/ruin/space/has_grav/vox_trader/mining
 	name = "\improper Trading Post Mining and Storage"
 
+/area/ruin/space/has_grav/vox_trader/office
+	name = "\improper Trading Post Trading Office"
+
 /area/ruin/space/has_grav/vox_trader/visitation
 	name = "\improper Trading Post Trading Floor"
 
