@@ -109,3 +109,7 @@
 	on = FALSE
 	name = "ordnance freezer chamber input injector"
 	chamber_id = ATMOS_GAS_MONITOR_ORDNANCE_FREEZER
+
+/obj/machinery/atmospherics/components/unary/outlet_injector/monitored/trader_nitrogen
+	name = "trading post nitrogen supply input injector"
+	chamber_id = "trader_n2"
