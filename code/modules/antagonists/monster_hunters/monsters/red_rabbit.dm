@@ -29,7 +29,7 @@
 	pixel_x = -16
 	base_pixel_x = -16
 
-	habitable_atmos = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
+	habitable_atmos = null
 	ai_controller = /datum/ai_controller/basic_controller/red_rabbit
 	basic_mob_flags = DEL_ON_DEATH
 

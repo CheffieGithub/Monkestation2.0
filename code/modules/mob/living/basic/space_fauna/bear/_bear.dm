@@ -33,7 +33,7 @@
 
 	faction = list(FACTION_RUSSIAN)
 
-	habitable_atmos = list("min_oxy" = 0, "max_oxy" = 0, "min_plas" = 0, "max_plas" = 0, "min_co2" = 0, "max_co2" = 0, "min_n2" = 0, "max_n2" = 0)
+	habitable_atmos = null
 	bodytemp_cold_damage_limit = TCMB
 	bodytemp_heat_damage_limit = T0C + 1500
 	ai_controller = /datum/ai_controller/basic_controller/bear
