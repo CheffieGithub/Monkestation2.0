@@ -392,14 +392,14 @@
 	icon_state = "scrub_map-2"
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/layer2/oxygen
-	filter_types = list(/datum/gas/carbon_dioxide, /datum/gas/oxygen)
+	filter_types = list(/datum/gas/oxygen)
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/layer4
 	piping_layer = 4
 	icon_state = "scrub_map-4"
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/layer4/oxygen
-	filter_types = list(/datum/gas/carbon_dioxide, /datum/gas/oxygen)
+	filter_types = list(/datum/gas/oxygen)
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on
 	on = TRUE
@@ -410,11 +410,11 @@
 	icon_state = "scrub_map_on-2"
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen
-	filter_types = list(/datum/gas/carbon_dioxide, /datum/gas/oxygen)
+	filter_types = list(/datum/gas/oxygen)
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4
 	piping_layer = 4
 	icon_state = "scrub_map_on-4"
 
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4/oxygen
-	filter_types = list(/datum/gas/carbon_dioxide, /datum/gas/oxygen)
+	filter_types = list(/datum/gas/oxygen)
