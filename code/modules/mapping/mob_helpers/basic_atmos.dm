@@ -27,12 +27,18 @@
 
 	var/list/existing_keys = list()
 	for(var/key in habitable_atmos)
+		if(!(key in all_keys))
+			stack_trace("[src] ([type]) has an invalid gas string for habitable_atmos!")
+			continue
 		existing_keys += key
 
 	var/list/replacement = habitable_atmos
 	for(var/key in thing.habitable_atmos)
 		if(key in existing_keys)
 			continue
+		if(!(key in all_keys))
+			stack_trace("[thing] ([thing.type]) has an invalid gas string for habitable_atmos!")
+			// No continue intentionally it doesn't do anything
 		replacement[key] = thing.habitable_atmos[key]
 
 	thing.RemoveElement(/datum/element/atmos_requirements, thing.habitable_atmos, thing.unsuitable_atmos_damage)
