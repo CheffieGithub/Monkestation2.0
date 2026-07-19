@@ -35,7 +35,10 @@
 			continue
 		replacement[key] = thing.habitable_atmos[key]
 
+	thing.RemoveElement(/datum/element/atmos_requirements, thing.habitable_atmos, thing.unsuitable_atmos_damage)
+
 	thing.habitable_atmos = replacement
+
 	thing.apply_atmos_requirements()
 
 /// Swap a basic mobs oxygen requirement for nitrogen

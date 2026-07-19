@@ -143,11 +143,9 @@
 /mob/living/basic/proc/apply_atmos_requirements()
 	if(unsuitable_atmos_damage == 0 || !length(habitable_atmos))
 		return
+
 	// String assoc list returns a cached list, so this is like a static list to pass into the element below.
 	habitable_atmos = string_assoc_list(habitable_atmos)
-	// Remove any existing element
-	RemoveElement(/datum/element/atmos_requirements, habitable_atmos, unsuitable_atmos_damage)
-	// Add the new one
 	AddElement(/datum/element/atmos_requirements, habitable_atmos, unsuitable_atmos_damage)
 
 /mob/living/basic/body_temperature_damage(datum/gas_mixture/environment, seconds_per_tick, times_fired)
