@@ -86,6 +86,18 @@
 	warning_max = 5
 	hazard_max = 10
 
+/datum/tlv/vox_nitrogen
+	warning_min = 11
+	hazard_min = 8
+	warning_max = TLV_VALUE_IGNORE
+	hazard_max = TLV_VALUE_IGNORE
+
+/datum/tlv/vox_oxygen
+	warning_min = TLV_VALUE_IGNORE
+	hazard_min = TLV_VALUE_IGNORE
+	warning_max = 5
+	hazard_max = 10
+
 /datum/tlv/pressure
 	warning_min = WARNING_LOW_PRESSURE
 	hazard_min = HAZARD_LOW_PRESSURE

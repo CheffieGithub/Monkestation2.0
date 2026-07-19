@@ -51,7 +51,7 @@
 /area/ruin/space/has_grav/vox_trader/kitchen)
 "bc" = (
 /obj/machinery/vending/hydronutrients,
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/iron/dark/textured/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/botany)
@@ -78,9 +78,9 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vox_trader/visitation)
 "bA" = (
-/obj/machinery/airalarm/directional/west,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vox_trader/visitation)
 "bB" = (
@@ -254,7 +254,7 @@
 /area/ruin/space/has_grav/vox_trader/cargo)
 "fo" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/structure/closet,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/iron/diagonal/atmos/nitrogen,
@@ -336,7 +336,7 @@
 	pixel_y = 12;
 	pixel_x = -8
 	},
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/structure/glowshroom/single/no_decay,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/iron/sepia/atmos/nitrogen,
@@ -409,7 +409,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
-/obj/machinery/airalarm/directional/east,
+/obj/machinery/airalarm/vox/directional/east,
 /obj/structure/glowshroom/single/no_decay,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /obj/structure/glowshroom/single/no_decay,
@@ -771,10 +771,6 @@
 "pU" = (
 /obj/effect/turf_decal/box,
 /obj/effect/spawner/random/structure/crate,
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
 /obj/effect/spawner/random/maintenance,
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
@@ -843,7 +839,7 @@
 /turf/open/floor/wood/tile/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/dorm)
 "rx" = (
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/iron/kitchen/small/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/kitchen)
@@ -853,7 +849,7 @@
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "rC" = (
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/plating/airless,
 /area/ruin/space/vox_trader/ruin)
@@ -920,10 +916,6 @@
 "sL" = (
 /obj/effect/turf_decal/box,
 /obj/structure/closet/crate/hydroponics,
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
 /obj/structure/glowshroom/single/no_decay,
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
@@ -948,7 +940,7 @@
 /turf/closed/wall,
 /area/ruin/space/has_grav/vox_trader/medical)
 "te" = (
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/iron/small/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/hallway)
@@ -1132,7 +1124,7 @@
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/iron/white/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/medical)
@@ -1314,7 +1306,7 @@
 /obj/item/bedsheet/red{
 	dir = 1
 	},
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/wood/tile/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/dorm)
@@ -1455,7 +1447,7 @@
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/office)
 "Ef" = (
-/obj/machinery/airalarm/directional/east,
+/obj/machinery/airalarm/vox/directional/east,
 /obj/effect/turf_decal/tile/brown,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -1644,7 +1636,7 @@
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 1
 	},
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/item/storage/toolbox/mechanical{
 	pixel_y = 12
 	},
@@ -1780,15 +1772,6 @@
 "KP" = (
 /turf/closed/wall,
 /area/ruin/space/has_grav/vox_trader/botany)
-"KQ" = (
-/obj/effect/spawner/random/structure/closet_empty/crate,
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/spawner/random/maintenance,
-/turf/open/floor/iron/large/atmos/nitrogen,
-/area/ruin/space/has_grav/vox_trader/cargo)
 "Lb" = (
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
 	dir = 1
@@ -1962,7 +1945,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/machinery/airalarm/directional/north,
+/obj/machinery/airalarm/vox/directional/north,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
 /turf/open/floor/iron/textured/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
@@ -2484,8 +2467,8 @@
 	},
 /obj/structure/closet/emcloset,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
+/obj/machinery/airalarm/directional/west,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vox_trader/visitation)
 "XS" = (
@@ -3148,7 +3131,7 @@ lM
 AK
 sL
 pU
-KQ
+Dr
 QH
 DA
 mR
