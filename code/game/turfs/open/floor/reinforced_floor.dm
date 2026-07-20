@@ -11,7 +11,7 @@
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 	clawfootstep = FOOTSTEP_HARD_CLAW
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
-	tiled_dirt = FALSE
+	tiled_turf = FALSE
 	rcd_proof = TRUE
 	rust_resistance = RUST_RESISTANCE_REINFORCED
 	var/floor_tooltip_description = "The reinforcement rods are <b>wrenched</b> firmly in place."

@@ -19,7 +19,7 @@
 
 	thermal_conductivity = 0.04
 	heat_capacity = 10000
-	tiled_dirt = TRUE
+	tiled_turf = TRUE
 
 /turf/open/misc/attackby(obj/item/attacking_item, mob/user, list/modifiers, list/attack_modifiers)
 	. = ..()

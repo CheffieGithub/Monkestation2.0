@@ -14,7 +14,7 @@
 	icon_state = null
 	material_flags = MATERIAL_EFFECTS
 	var/list/icons
-	tiled_dirt = FALSE
+	tiled_turf = FALSE
 	rust_resistance = RUST_RESISTANCE_BASIC
 
 

@@ -37,6 +37,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron)
 	icon_state = "floor_edge"
 	base_icon_state = "floor_edge"
 	floor_tile = /obj/item/stack/tile/iron/edge
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/edge)
 
@@ -44,6 +45,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/edge)
 	icon_state = "floor_half"
 	base_icon_state = "floor_half"
 	floor_tile = /obj/item/stack/tile/iron/half
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/half)
 
@@ -51,6 +53,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/half)
 	icon_state = "floor_corner"
 	base_icon_state = "floor_corner"
 	floor_tile = /obj/item/stack/tile/iron/corner
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/corner)
 
@@ -58,6 +61,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/corner)
 	icon_state = "floor_large"
 	base_icon_state = "floor_large"
 	floor_tile = /obj/item/stack/tile/iron/large
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/large)
 
@@ -72,6 +76,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/textured)
 	icon_state = "textured_edge"
 	base_icon_state = "textured_edge"
 	floor_tile = /obj/item/stack/tile/iron/textured_edge
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/textured_edge)
 
@@ -79,6 +84,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/textured_edge)
 	icon_state = "textured_half"
 	base_icon_state = "textured_half"
 	floor_tile = /obj/item/stack/tile/iron/textured_half
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/textured_half)
 
@@ -86,6 +92,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/textured_half)
 	icon_state = "textured_corner"
 	base_icon_state = "textured_corner"
 	floor_tile = /obj/item/stack/tile/iron/textured_corner
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/textured_corner)
 
@@ -107,6 +114,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/small)
 	icon_state = "diagonal"
 	base_icon_state = "diagonal"
 	floor_tile = /obj/item/stack/tile/iron/diagonal
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/diagonal)
 
@@ -117,6 +125,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/diagonal)
 	icon_state = "herringbone"
 	base_icon_state = "herringbone"
 	floor_tile = /obj/item/stack/tile/iron/herringbone
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/herringbone)
 
@@ -138,6 +147,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark)
 	icon_state = "dark_edge"
 	base_icon_state = "dark_edge"
 	floor_tile = /obj/item/stack/tile/iron/dark/smooth_edge
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_edge)
 
@@ -145,6 +155,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_edge)
 	icon_state = "dark_half"
 	base_icon_state = "dark_half"
 	floor_tile = /obj/item/stack/tile/iron/dark/smooth_half
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_half)
 
@@ -152,6 +163,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_half)
 	icon_state = "dark_corner"
 	base_icon_state = "dark_corner"
 	floor_tile = /obj/item/stack/tile/iron/dark/smooth_corner
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_corner)
 
@@ -159,6 +171,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_corner)
 	icon_state = "dark_large"
 	base_icon_state = "dark_large"
 	floor_tile = /obj/item/stack/tile/iron/dark/smooth_large
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/smooth_large)
 
@@ -173,6 +186,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/side)
 	icon_state = "darkhall_flat"
 	base_icon_state = "darkhall_flat"
 	floor_tile = /obj/item/stack/tile/iron/dark_side_flat
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/side/flat)
 
@@ -194,6 +208,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured)
 	icon_state = "textured_dark_edge"
 	base_icon_state = "textured_dark_edge"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured_edge
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_edge)
 
@@ -201,6 +216,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_edge)
 	icon_state = "textured_dark_half"
 	base_icon_state = "textured_dark_half"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured_half
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_half)
 
@@ -208,6 +224,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_half)
 	icon_state = "textured_dark_corner"
 	base_icon_state = "textured_dark_corner"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured_corner
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_corner)
 
@@ -215,6 +232,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_corner)
 	icon_state = "textured_dark_large"
 	base_icon_state = "textured_dark_large"
 	floor_tile = /obj/item/stack/tile/iron/dark/textured_large
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/textured_large)
 
@@ -244,6 +262,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/small)
 	icon_state = "dark_diagonal"
 	base_icon_state = "dark_diagonal"
 	floor_tile = /obj/item/stack/tile/iron/dark/diagonal
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/diagonal)
 
@@ -251,6 +270,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/diagonal)
 	icon_state = "dark_herringbone"
 	base_icon_state = "dark_herringbone"
 	floor_tile = /obj/item/stack/tile/iron/dark/herringbone
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/dark/herringbone)
 
@@ -286,6 +306,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white)
 	icon_state = "white_edge"
 	base_icon_state = "white_edge"
 	floor_tile = /obj/item/stack/tile/iron/white/smooth_edge
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_edge)
 
@@ -293,6 +314,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_edge)
 	icon_state = "white_half"
 	base_icon_state = "white_half"
 	floor_tile = /obj/item/stack/tile/iron/white/smooth_half
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_half)
 
@@ -300,6 +322,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_half)
 	icon_state = "white_corner"
 	base_icon_state = "white_corner"
 	floor_tile = /obj/item/stack/tile/iron/white/smooth_corner
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_corner)
 
@@ -307,6 +330,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_corner)
 	icon_state = "white_large"
 	base_icon_state = "white_large"
 	floor_tile = /obj/item/stack/tile/iron/white/smooth_large
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/smooth_large)
 
@@ -321,6 +345,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/side)
 	icon_state = "whitehall_flat"
 	base_icon_state = "whitehall_flat"
 	floor_tile = /obj/item/stack/tile/iron/white_side_flat
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/side/flat)
 
@@ -342,6 +367,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/textured)
 	icon_state = "textured_white_edge"
 	base_icon_state = "textured_white_edge"
 	floor_tile = /obj/item/stack/tile/iron/white/textured_edge
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_edge)
 
@@ -349,6 +375,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_edge)
 	icon_state = "textured_white_half"
 	base_icon_state = "textured_white_half"
 	floor_tile = /obj/item/stack/tile/iron/white/textured_half
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_half)
 
@@ -356,6 +383,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_half)
 	icon_state = "textured_white_corner"
 	base_icon_state = "textured_white_corner"
 	floor_tile = /obj/item/stack/tile/iron/white/textured_corner
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_corner)
 
@@ -363,6 +391,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_corner)
 	icon_state = "textured_white_large"
 	base_icon_state = "textured_white_large"
 	floor_tile = /obj/item/stack/tile/iron/white/textured_large
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/textured_large)
 
@@ -377,6 +406,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/small)
 	icon_state = "white_diagonal"
 	base_icon_state = "white_diagonal"
 	floor_tile = /obj/item/stack/tile/iron/white/diagonal
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/diagonal)
 
@@ -384,6 +414,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/diagonal)
 	icon_state = "white_herringbone"
 	base_icon_state = "white_herringbone"
 	floor_tile = /obj/item/stack/tile/iron/white/herringbone
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/white/herringbone)
 
@@ -481,6 +512,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/kitchen/small)
 	icon_state = "kitchen_diagonal"
 	base_icon_state = "kitchen_diagonal"
 	floor_tile = /obj/item/stack/tile/iron/kitchen/diagonal
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/kitchen/diagonal)
 
@@ -488,6 +520,7 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/kitchen/diagonal)
 	icon_state = "kitchen_herringbone"
 	base_icon_state = "kitchen_herringbone"
 	floor_tile = /obj/item/stack/tile/iron/kitchen/herringbone
+	tiled_turf = FALSE
 
 MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/kitchen/herringbone)
 
@@ -548,13 +581,13 @@ MAPPING_GASMIX_HELPERS(/turf/open/floor/iron/freezer)
 	desc = "\"This is a plaque in honour of our comrades on the G4407 Stations. Hopefully TG4407 model can live up to your fame and fortune.\" Scratched in beneath that is a crude image of a meteor and a spaceman. The spaceman is laughing. The meteor is exploding."
 	icon_state = "plaque"
 	base_icon_state = "plaque"
-	tiled_dirt = FALSE
+	tiled_turf = FALSE
 	floor_tile = /obj/item/stack/tile/iron/goonplaque
 
 /turf/open/floor/iron/stairs
 	icon_state = "stairs"
 	base_icon_state = "stairs"
-	tiled_dirt = FALSE
+	tiled_turf = FALSE
 
 /turf/open/floor/iron/stairs/left
 	icon_state = "stairs-l"

@@ -16,8 +16,7 @@
 
 	thermal_conductivity = 0.04
 	heat_capacity = 10000
-	tiled_dirt = TRUE
-
+	tiled_turf = TRUE
 
 	overfloor_placed = TRUE
 	/// Path of the tile that this floor drops

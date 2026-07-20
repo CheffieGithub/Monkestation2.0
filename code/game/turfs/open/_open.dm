@@ -108,7 +108,7 @@
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
 	clawfootstep = FOOTSTEP_HARD_CLAW
 	heavyfootstep = FOOTSTEP_GENERIC_HEAVY
-	tiled_dirt = TRUE
+	tiled_turf = TRUE
 
 /turf/open/indestructible/Melt()
 	to_be_destroyed = FALSE
@@ -183,7 +183,7 @@
 	barefootstep = FOOTSTEP_LAVA
 	clawfootstep = FOOTSTEP_LAVA
 	heavyfootstep = FOOTSTEP_LAVA
-	tiled_dirt = FALSE
+	tiled_turf = FALSE
 
 /turf/open/indestructible/necropolis/Initialize(mapload)
 	. = ..()
@@ -210,7 +210,7 @@
 	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
 	baseturfs = /turf/open/indestructible/hierophant
 	smoothing_flags = SMOOTH_CORNERS
-	tiled_dirt = FALSE
+	tiled_turf = FALSE
 
 /turf/open/indestructible/hierophant/two
 
@@ -225,7 +225,7 @@
 	barefootstep = null
 	clawfootstep = null
 	heavyfootstep = null
-	tiled_dirt = FALSE
+	tiled_turf = FALSE
 
 /turf/open/indestructible/binary
 	name = "tear in the fabric of reality"

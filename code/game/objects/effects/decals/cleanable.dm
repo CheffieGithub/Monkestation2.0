@@ -19,7 +19,7 @@
 	. = ..()
 	if(LAZYLEN(random_icon_states))
 		icon_state = pick(random_icon_states)
-	base_icon_state = icon_state
+		base_icon_state = icon_state
 
 	if(isturf(loc))
 		for (var/obj/effect/decal/cleanable/other in loc)
