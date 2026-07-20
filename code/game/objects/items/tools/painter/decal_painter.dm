@@ -56,7 +56,6 @@
 		_dir = decal_data[DECAL_INFO_DIR], \
 		_alpha = decal_data[DECAL_INFO_ALPHA], \
 		_color = decal_data[DECAL_INFO_COLOR], \
-		_cleanable = FALSE, \
 	)
 
 /obj/item/airlock_painter/decal/proc/set_category(datum/paintable_decal_category/category)

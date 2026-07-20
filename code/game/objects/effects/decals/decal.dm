@@ -55,8 +55,10 @@
 // Basically rather then creating and deleting ourselves, why not just do the bare minimum?
 /obj/effect/turf_decal/Initialize(mapload)
 	SHOULD_CALL_PARENT(FALSE)
+
 	if(flags_1 & INITIALIZED_1)
 		stack_trace("Warning: [src]([type]) initialized multiple times!")
+
 	flags_1 |= INITIALIZED_1
 
 	// If the tile uses holiday colors, apply them here
@@ -69,7 +71,19 @@
 	var/turf/T = loc
 	if(!istype(T)) //you know this will happen somehow
 		CRASH("Turf decal initialized in an object/nullspace")
-	T.AddElement(/datum/element/decal, icon, icon_state, dir, null, layer, alpha, color, null, FALSE, null)
+
+	T.AddElement(\
+		/datum/element/decal,\
+		icon,\
+		icon_state,\
+		dir,\
+		_layer = layer,\
+		_alpha = alpha,\
+		_color = color,\
+		_pixel_x = pixel_x,\
+		_pixel_y = pixel_y,\
+	)
+
 	return INITIALIZE_HINT_QDEL
 
 /obj/effect/turf_decal/Destroy(force)
@@ -79,7 +93,7 @@
 // I hate it too bestie
 	if(GLOB.running_create_and_destroy)
 		var/turf/T = loc
-		T.RemoveElement(/datum/element/decal, icon, icon_state, dir, null, layer, alpha, color, null, FALSE, null)
+		T.RemoveElement(/datum/element/decal, icon, icon_state, dir, _layer = layer, _alpha = alpha, _color = color)
 #endif
 	// Intentionally used over moveToNullspace(), which calls doMove(), which fires
 	// off an enormous amount of procs, signals, etc, that this temporary effect object

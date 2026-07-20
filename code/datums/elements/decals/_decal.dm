@@ -30,21 +30,46 @@
 
 	var/list/resulting_decals_params = list() // param lists
 	for(var/datum/element/decal/rotating as anything in old_decals)
-		resulting_decals_params += list(rotating.get_rotated_parameters(old_dir,new_dir))
+		resulting_decals_params += list(rotating.get_rotated_parameters(old_dir, new_dir))
 
 	//Instead we could generate ids and only remove duplicates to save on churn on four-corners symmetry ?
 	for(var/datum/element/decal/decal in old_decals)
 		decal.Detach(source)
 
 	for(var/result in resulting_decals_params)
-		source.AddElement(/datum/element/decal, result["icon"], result["icon_state"], result["dir"], PLANE_TO_TRUE(result["plane"]), result["layer"], result["alpha"], result["color"], result["smoothing"], result["cleanable"], result["desc"])
+		source.AddElement(\
+			/datum/element/decal,\
+			result["icon"],\
+			result["icon_state"],\
+			result["dir"],\
+			PLANE_TO_TRUE(result["plane"]),\
+			result["layer"],\
+			result["alpha"],\
+			result["color"],\
+			result["pixel_x"],\
+			result["pixel_y"],\
+			result["smoothing"],\
+			result["cleanable"],\
+			result["desc"],\
+		)
 
+/datum/element/decal/proc/get_rotated_parameters(old_dir, new_dir)
+	var/new_pix_x = pic.pixel_x
+	var/new_pix_y = pic.pixel_y
 
-/datum/element/decal/proc/get_rotated_parameters(old_dir,new_dir)
-	var/rotation = 0
 	if(directional) //Even when the dirs are the same rotation is coming out as not 0 for some reason
-		rotation = SIMPLIFY_DEGREES(dir2angle(new_dir)-dir2angle(old_dir))
-		new_dir = turn(pic.dir,-rotation)
+		var/rotation = SIMPLIFY_DEGREES(dir2angle(new_dir) - dir2angle(old_dir))
+		new_dir = turn(pic.dir, -rotation)
+		if(pic.pixel_x || pic.pixel_y)
+			if(rotation < 0)
+				rotation += 360
+
+			for(var/turns in 1 to rotation / 90)
+				var/oldPX = new_pix_x
+				var/oldPY = new_pix_y
+				new_pix_x = oldPY
+				new_pix_y = oldPX * -1
+
 	return list(
 		"icon" = pic.icon,
 		"icon_state" = base_icon_state,
@@ -53,21 +78,38 @@
 		"layer" = pic.layer,
 		"alpha" = pic.alpha,
 		"color" = pic.color,
+		"pixel_x" = new_pix_x,
+		"pixel_y" = new_pix_y,
 		"smoothing" = smoothing,
 		"cleanable" = cleanable,
 		"desc" = description
 	)
 
-
-
-/datum/element/decal/Attach(atom/target, _icon, _icon_state, _dir, _plane=FLOAT_PLANE, _layer=FLOAT_LAYER, _alpha=255, _color, _smoothing, _cleanable=FALSE, _description, mutable_appearance/_pic)
+/datum/element/decal/Attach(
+	atom/target,
+	_icon,
+	_icon_state,
+	_dir,
+	_plane = FLOAT_PLANE,
+	_layer = FLOAT_LAYER,
+	_alpha = 255,
+	_color = null,
+	_pixel_x = 0,
+	_pixel_y = 0,
+	_smoothing = null,
+	_cleanable = FALSE,
+	_description = null,
+	mutable_appearance/_pic = null,
+)
 	. = ..()
 	if(!isatom(target))
 		return ELEMENT_INCOMPATIBLE
+
 	if(_pic)
 		pic = _pic
-	else if(!generate_appearance(_icon, _icon_state, _dir, _plane, _layer, _color, _alpha, _smoothing, target))
+	else if(!generate_appearance(_icon, _icon_state, _dir, _plane, _layer, _alpha, _color, _pixel_x, _pixel_y, _smoothing, target))
 		return ELEMENT_INCOMPATIBLE
+
 	description = _description
 	cleanable = _cleanable
 	directional = _dir
@@ -78,20 +120,25 @@
 	if(target.flags_1 & INITIALIZED_1)
 		target.update_appearance(UPDATE_OVERLAYS) //could use some queuing here now maybe.
 	else
-		RegisterSignal(target,COMSIG_ATOM_AFTER_SUCCESSFUL_INITIALIZE, PROC_REF(late_update_icon), TRUE)
+		RegisterSignal(target, COMSIG_ATOM_AFTER_SUCCESSFUL_INITIALIZE, PROC_REF(late_update_icon), TRUE)
+
 	if(isitem(target))
-		INVOKE_ASYNC(target, TYPE_PROC_REF(/obj/item/, update_slot_icon), TRUE)
+		INVOKE_ASYNC(target, TYPE_PROC_REF(/obj/item, update_slot_icon), TRUE)
+
 	if(_dir)
 		RegisterSignal(target, COMSIG_ATOM_DECALS_ROTATING, PROC_REF(shuttle_rotate), TRUE)
 		SSdcs.RegisterSignal(target, COMSIG_ATOM_DIR_CHANGE, TYPE_PROC_REF(/datum/controller/subsystem/processing/dcs, rotate_decals), override=TRUE)
+
 	if(!isnull(_smoothing))
 		RegisterSignal(target, COMSIG_ATOM_SMOOTHED_ICON, PROC_REF(smooth_react), TRUE)
+
 	if(_cleanable)
 		RegisterSignal(target, COMSIG_COMPONENT_CLEAN_ACT, PROC_REF(clean_react), TRUE)
-	if(_description)
-		RegisterSignal(target, COMSIG_ATOM_EXAMINE, PROC_REF(examine),TRUE)
 
-	RegisterSignal(target, COMSIG_TURF_ON_SHUTTLE_MOVE, PROC_REF(shuttle_move_react),TRUE)
+	if(_description)
+		RegisterSignal(target, COMSIG_ATOM_EXAMINE, PROC_REF(examine), TRUE)
+
+	RegisterSignal(target, COMSIG_TURF_ON_SHUTTLE_MOVE, PROC_REF(shuttle_move_react), TRUE)
 
 /**
  * ## generate_appearance
@@ -101,10 +148,11 @@
  * all args are fed into creating an image, they are byond vars for images you'll recognize in the byond docs
  * (except source, source is the object whose appearance we're copying.)
  */
-/datum/element/decal/proc/generate_appearance(_icon, _icon_state, _dir, _plane, _layer, _color, _alpha, _smoothing, source)
+/datum/element/decal/proc/generate_appearance(_icon, _icon_state, _dir, _plane, _layer, _alpha, _color, _pixel_x, _pixel_y, _smoothing, atom/source)
 	if(!_icon || !_icon_state)
 		return FALSE
-	var/temp_image = image(_icon, null, isnull(_smoothing) ? _icon_state : "[_icon_state]-[_smoothing]", _layer, _dir)
+
+	var/temp_image = image(_icon, null, isnull(_smoothing) ? _icon_state : "[_icon_state]-[_smoothing]", _layer, _dir, pixel_x = _pixel_x, pixel_y = _pixel_y)
 	pic = new(temp_image)
 	var/atom/atom_source = source
 	SET_PLANE_EXPLICIT(pic, _plane, atom_source)

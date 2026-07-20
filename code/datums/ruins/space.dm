@@ -533,3 +533,4 @@
 	suffix = "vox_trader.dmm"
 	name = "Vox Trading Outpost"
 	description = "A rundown trading outpost run by space avians, will they get rich or starve trying?"
+	always_place = TRUE
