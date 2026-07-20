@@ -89,7 +89,7 @@
 /area/ruin/space/has_grav/vox_trader/maintenance)
 "bi" = (
 /obj/item/stack/rods,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "bk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -113,7 +113,7 @@
 /area/ruin/space/has_grav/vox_trader/atmos)
 "bN" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "bQ" = (
 /obj/effect/turf_decal/tile/brown/half{
@@ -152,6 +152,12 @@
 /obj/item/flashlight/lantern,
 /turf/open/floor/iron/sepia/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/mining)
+"de" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/wrench,
+/obj/item/clothing/neck/stethoscope,
+/turf/open/floor/wood/tile/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/dorm)
 "df" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 1
@@ -188,6 +194,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/wood/tile/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/dorm)
 "do" = (
@@ -253,6 +260,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/white/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/medical)
 "ew" = (
@@ -347,7 +355,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
-	dir = 8
+	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/small/atmos/nitrogen,
@@ -393,7 +401,6 @@
 /turf/open/floor/engine/vacuum,
 /area/ruin/space/has_grav/vox_trader/atmos)
 "gB" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/atmos)
@@ -477,6 +484,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/textured/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/atmos)
 "hS" = (
@@ -511,7 +519,7 @@
 /area/ruin/space/has_grav/vox_trader/access)
 "ij" = (
 /obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "im" = (
 /obj/structure/closet/secure_closet/miner,
@@ -520,9 +528,6 @@
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/mining)
 "in" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 5
-	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/sepia/atmos/nitrogen,
@@ -590,7 +595,7 @@
 /area/ruin/space/has_grav/vox_trader/visitation)
 "jw" = (
 /obj/item/stack/sheet/iron/ten,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "jz" = (
 /obj/effect/spawner/structure/window/reinforced/plasma,
@@ -629,7 +634,6 @@
 	dir = 5
 	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/small/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/botany)
@@ -679,6 +683,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark/textured/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/botany)
 "kR" = (
@@ -703,10 +711,6 @@
 /turf/open/floor/iron/diagonal/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/office)
 "lc" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/tile/iron/white,
 /turf/open/floor/iron/white/atmos/nitrogen,
@@ -781,6 +785,9 @@
 "mF" = (
 /obj/structure/glowshroom/single/no_decay,
 /obj/effect/turf_decal/tile/blue/half/contrasted,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 1
+	},
 /turf/open/floor/iron/textured/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/atmos)
 "mI" = (
@@ -842,8 +849,10 @@
 /turf/open/floor/iron/freezer/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/dorm)
 "nS" = (
-/obj/effect/turf_decal/box,
 /obj/effect/spawner/random/structure/crate,
+/obj/effect/turf_decal/box/corners{
+	dir = 4
+	},
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "nW" = (
@@ -898,6 +907,7 @@
 /obj/effect/turf_decal/delivery,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/turf_decal/sand/plating,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/access)
 "pJ" = (
@@ -906,7 +916,6 @@
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "pU" = (
-/obj/effect/turf_decal/box,
 /obj/effect/spawner/random/structure/crate,
 /obj/effect/spawner/random/maintenance,
 /obj/effect/decal/cleanable/dirt,
@@ -917,6 +926,7 @@
 /obj/effect/spawner/random/maintenance,
 /obj/effect/turf_decal/box,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "qp" = (
@@ -930,6 +940,7 @@
 	},
 /obj/effect/turf_decal/delivery,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/access)
 "qz" = (
@@ -970,7 +981,7 @@
 /turf/open/floor/iron/white/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/botany)
 "rf" = (
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "rj" = (
 /obj/structure/cable,
@@ -992,15 +1003,12 @@
 "rC" = (
 /obj/machinery/airalarm/vox/directional/north,
 /obj/effect/mapping_helpers/airalarm/away_general_access,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
-"rH" = (
-/turf/open/misc/asteroid/atmos/nitrogen,
-/area/ruin/space/vox_trader)
 "rY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/garbage,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "sa" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1063,9 +1071,11 @@
 /turf/open/floor/iron/textured/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/atmos)
 "sL" = (
-/obj/effect/turf_decal/box,
 /obj/structure/closet/crate/hydroponics,
 /obj/structure/glowshroom/single/no_decay,
+/obj/effect/turf_decal/box/corners{
+	dir = 1
+	},
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "sP" = (
@@ -1085,6 +1095,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/sepia/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/mining)
 "td" = (
@@ -1144,6 +1155,7 @@
 "us" = (
 /obj/machinery/door/airlock/maintenance,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/maintenance)
 "ut" = (
@@ -1369,7 +1381,7 @@
 /area/ruin/space/has_grav/vox_trader/visitation)
 "yO" = (
 /obj/structure/door_assembly/door_assembly_ext,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "za" = (
 /obj/structure/frame/machine,
@@ -1408,7 +1420,6 @@
 /area/ruin/space/has_grav/vox_trader/cargo)
 "zs" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/box,
 /obj/structure/closet/crate/radiation,
 /obj/effect/spawner/random/maintenance,
 /obj/effect/decal/cleanable/dirt,
@@ -1507,6 +1518,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/textured/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
+"Bk" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plating/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/atmos)
 "Bm" = (
 /obj/structure/glowshroom/single/no_decay,
 /obj/effect/turf_decal/tile/blue/anticorner/contrasted{
@@ -1547,7 +1562,8 @@
 /area/ruin/space/has_grav/vox_trader/mining)
 "BU" = (
 /obj/structure/lattice,
-/turf/closed/indestructible/grille,
+/obj/structure/grille,
+/turf/template_noop,
 /area/ruin/space/vox_trader/close)
 "BW" = (
 /obj/machinery/growing/tray,
@@ -1577,14 +1593,17 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/east,
 /obj/effect/mapping_helpers/apc/away_general_access,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
 /turf/open/floor/iron/white/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/medical)
 "Cq" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
 /obj/item/stack/tile/iron/textured,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
+	dir = 5
+	},
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "Cv" = (
@@ -1652,7 +1671,9 @@
 "Dr" = (
 /obj/effect/spawner/random/structure/closet_empty/crate,
 /obj/effect/spawner/random/maintenance,
-/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "Du" = (
@@ -1675,6 +1696,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/diagonal/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/office)
 "DA" = (
@@ -1690,6 +1712,7 @@
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vox_trader/visitation)
 "DW" = (
@@ -1755,7 +1778,7 @@
 "Fv" = (
 /obj/item/wrench,
 /obj/machinery/firealarm/directional/north,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "FB" = (
 /obj/structure/glowshroom/single/no_decay,
@@ -1778,7 +1801,7 @@
 "FL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "FM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
@@ -1789,14 +1812,12 @@
 /obj/machinery/door/airlock,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/access)
 "FO" = (
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
-	dir = 4
 	},
 /obj/structure/table,
 /obj/item/storage/medkit/o2{
@@ -1807,14 +1828,6 @@
 	},
 /turf/open/floor/iron/white/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/medical)
-"FR" = (
-/obj/effect/turf_decal/tile/brown,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen,
-/turf/open/floor/iron/textured/atmos/nitrogen,
-/area/ruin/space/has_grav/vox_trader/cargo)
 "Gc" = (
 /obj/machinery/atmospherics/components/tank/air{
 	piping_layer = 4;
@@ -1836,6 +1849,9 @@
 /area/ruin/space/has_grav/vox_trader/atmos)
 "GG" = (
 /obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "GJ" = (
@@ -1904,7 +1920,7 @@
 "Hn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/rack_parts,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "Hr" = (
 /obj/machinery/power/floodlight,
@@ -1947,6 +1963,9 @@
 /obj/machinery/firealarm/directional/west,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stack/tile/iron/white,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 4
+	},
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/medical)
 "Ie" = (
@@ -2005,6 +2024,7 @@
 /obj/machinery/door/airlock/glass,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "IZ" = (
@@ -2019,7 +2039,6 @@
 /area/ruin/space/has_grav/vox_trader/botany)
 "Jp" = (
 /obj/structure/cable,
-/obj/effect/turf_decal/box,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
@@ -2276,12 +2295,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/small/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/hallway)
-"OA" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
-	dir = 1
-	},
-/turf/open/floor/plating/atmos/nitrogen,
-/area/ruin/space/has_grav/vox_trader/atmos)
 "OB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 5
@@ -2359,7 +2372,7 @@
 /area/ruin/space/has_grav/vox_trader/atmos)
 "Pi" = (
 /obj/item/weldingtool,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "Pm" = (
 /obj/effect/turf_decal/stripes/line,
@@ -2446,6 +2459,11 @@
 /obj/effect/turf_decal/caution{
 	dir = 1
 	},
+/turf/open/floor/iron/textured/atmos/nitrogen,
+/area/ruin/space/has_grav/vox_trader/cargo)
+"QI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen,
 /turf/open/floor/iron/textured/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "QK" = (
@@ -2563,8 +2581,10 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/vox_trader/visitation)
 "Se" = (
-/obj/effect/turf_decal/box,
 /obj/effect/spawner/random/structure/closet_empty/crate,
+/obj/effect/turf_decal/box/corners{
+	dir = 8
+	},
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "Sv" = (
@@ -2573,7 +2593,9 @@
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/dorm)
 "SI" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
+	dir = 8
+	},
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/dorm)
 "SK" = (
@@ -2593,6 +2615,7 @@
 /obj/structure/cable,
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/kitchen/small/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/kitchen)
 "SP" = (
@@ -2723,9 +2746,6 @@
 /turf/template_noop,
 /area/ruin/space/vox_trader/close)
 "UZ" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2/oxygen{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/dorm)
@@ -2736,6 +2756,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/sepia/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/mining)
 "Vn" = (
@@ -2800,6 +2821,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
 /obj/machinery/door/firedoor,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/plating/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/maintenance)
 "We" = (
@@ -2831,9 +2853,9 @@
 /turf/open/floor/iron/white/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/medical)
 "WU" = (
-/obj/effect/turf_decal/box,
 /obj/effect/spawner/random/structure/closet_empty/crate,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/box/corners,
 /turf/open/floor/iron/large/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "WY" = (
@@ -2851,7 +2873,7 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/apc/no_charge,
 /obj/effect/mapping_helpers/apc/away_general_access,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating/atmos/airless,
 /area/ruin/space/vox_trader/ruin)
 "Xp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -2910,9 +2932,6 @@
 	},
 /obj/machinery/iv_drip,
 /obj/item/reagent_containers/blood/o_minus,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/medical)
@@ -3017,6 +3036,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass,
 /obj/effect/mapping_helpers/airlock/access/all/away/general,
+/obj/effect/mapping_helpers/airlock/autoname,
 /turf/open/floor/iron/small/atmos/nitrogen,
 /area/ruin/space/has_grav/vox_trader/cargo)
 "Zo" = (
@@ -3182,8 +3202,8 @@ QP
 sA
 sA
 sA
-rH
-rH
+OP
+OP
 QP
 QP
 QP
@@ -3221,8 +3241,8 @@ QP
 QP
 sA
 sA
-rH
-rH
+OP
+OP
 QP
 QP
 QP
@@ -3352,7 +3372,7 @@ Zw
 QQ
 Un
 Tm
-Gz
+Bk
 sD
 mF
 KA
@@ -3394,7 +3414,7 @@ Hk
 Cy
 gB
 Pg
-OA
+Gz
 aq
 eY
 QS
@@ -3418,8 +3438,8 @@ QP
 QP
 sA
 sA
-rH
-rH
+OP
+OP
 QP
 QP
 QP
@@ -3458,7 +3478,7 @@ QP
 QP
 sA
 sA
-rH
+OP
 QP
 QP
 QP
@@ -3667,7 +3687,7 @@ cc
 cc
 Zw
 se
-xd
+de
 UZ
 dy
 Zw
@@ -4309,9 +4329,9 @@ ZN
 Nz
 GG
 CB
-xk
+QI
 qg
-FR
+eT
 KH
 Dy
 PQ
