@@ -75,8 +75,8 @@
 	hazard_max = 0.5
 
 /datum/tlv/oxygen
-	warning_min = 19
-	hazard_min = 16
+	warning_min = /obj/item/organ/internal/lungs::safe_oxygen_min + 5
+	hazard_min = /obj/item/organ/internal/lungs::safe_oxygen_min
 	warning_max = TLV_VALUE_IGNORE
 	hazard_max = TLV_VALUE_IGNORE
 
