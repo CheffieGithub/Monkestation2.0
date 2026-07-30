@@ -24,7 +24,7 @@
 /turf/template_noop,
 /area/space)
 "bY" = (
-/obj/machinery/door/airlock/security/old{
+/obj/machinery/door/airlock/security{
 	name = "Radio Wing"
 	},
 /turf/open/floor/iron/dark,
@@ -334,7 +334,7 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "JT" = (
-/obj/machinery/door/airlock/security/old,
+/obj/machinery/door/airlock/security,
 /turf/open/floor/mineral/plastitanium,
 /area/space)
 "Ko" = (
