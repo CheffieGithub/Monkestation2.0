@@ -36,11 +36,9 @@
 	force = 10
 	dog_fashion = /datum/dog_fashion/back
 
-
 /obj/item/tank/internals/oxygen/populate_gas()
 	air_contents.assert_gas(/datum/gas/oxygen)
 	air_contents.gases[/datum/gas/oxygen][MOLES] = (6*ONE_ATMOSPHERE)*volume/(R_IDEAL_GAS_EQUATION*T20C)
-
 
 /obj/item/tank/internals/oxygen/yellow
 	desc = "A tank of oxygen, this one is yellow."

@@ -50,11 +50,6 @@ GLOBAL_LIST_EMPTY(initalized_ocean_areas)
 	name = "ocean"
 	planetary_atmos = TRUE
 	baseturfs = /turf/open/openspace/ocean
-	var/replacement_turf = /turf/open/floor/plating/ocean
-
-/turf/open/openspace/ocean/Initialize(mapload)
-	. = ..()
-	ChangeTurf(replacement_turf, null, CHANGETURF_IGNORE_AIR)
 
 /turf/open/floor/plating
 	///do we still call parent but dont want other stuff?

@@ -235,7 +235,6 @@ Always compile, always use that verb, and always make sure that it works for wha
 /// Checks the job changes in the map config for the passed change key.
 #define CHECK_MAP_JOB_CHANGE(job, change) SSmapping.current_map.job_changes?[job]?[change]
 
-//monkestation start
 #define ZTRAIT_OSHAN "OshanTrait"
 
 #define ZTRAIT_OSHAN_MINING "Oshan Mining"
@@ -258,4 +257,3 @@ Always compile, always use that verb, and always make sure that it works for wha
 #define PARTICLEWEATHER_SNOW "weather_snow"
 #define PARTICLEWEATHER_DUST "weather_dust"
 #define PARTICLEWEATHER_RADS "weather_rads"
-//monkestation end

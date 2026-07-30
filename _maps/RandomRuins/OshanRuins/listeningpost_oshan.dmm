@@ -1,0 +1,1806 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bj" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 1
+	},
+/obj/item/storage/medkit/surgery{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/obj/structure/table,
+/obj/item/storage/pill_bottle/penacid{
+	pixel_x = -9;
+	pixel_y = 13
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"bk" = (
+/obj/structure/shipping_container/kosmologistika{
+	dir = 4
+	},
+/turf/open/floor/plating/ocean,
+/area/space)
+"bS" = (
+/turf/template_noop,
+/area/space)
+"bY" = (
+/obj/machinery/door/airlock/security/old{
+	name = "Radio Wing"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"cL" = (
+/obj/structure/broken_flooring/singular,
+/turf/open/floor/plating/ocean,
+/area/space)
+"ea" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/mineral/plasma/thirty,
+/obj/item/crowbar,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"ek" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Dormitory Room"
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"eQ" = (
+/obj/structure/barricade/wooden/crude,
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"hi" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/circuit/red/anim,
+/area/space)
+"hK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"hT" = (
+/obj/machinery/door/airlock/external/ruin,
+/obj/structure/barricade/wooden/crude,
+/turf/open/space/basic,
+/area/space)
+"iG" = (
+/obj/machinery/telecomms/relay/preset/ruskie,
+/turf/open/floor/circuit/red/anim,
+/area/space)
+"iV" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"jY" = (
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
+/turf/closed/mineral/random/ocean,
+/area/space)
+"ku" = (
+/obj/effect/decal/cleanable/glass/plastitanium,
+/turf/open/floor/iron/dark,
+/area/space)
+"lR" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"mr" = (
+/obj/structure/broken_flooring/plating,
+/turf/open/floor/plating/ocean,
+/area/space)
+"mP" = (
+/turf/open/floor/iron/dark,
+/area/space)
+"nC" = (
+/obj/machinery/door/airlock/external/glass/ruin{
+	name = "Telecommunications Relay"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"oo" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"os" = (
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms/space/anderson{
+	dir = 4
+	},
+/turf/open/floor/circuit/red/anim,
+/area/space)
+"pN" = (
+/obj/effect/turf_decal/syndicateemblem/top/middle,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"qf" = (
+/obj/structure/filingcabinet,
+/obj/machinery/door/window/brigdoor{
+	dir = 4;
+	req_access = list("syndicate");
+	name = "Secure Document Storage"
+	},
+/obj/item/tape,
+/obj/item/folder/ancient_paperwork,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"sq" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/turf/open/floor/iron/dark,
+/area/space)
+"sJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/syndicateemblem/top/right,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"sX" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Infirmary"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"ti" = (
+/obj/structure/table,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/item/lighter{
+	pixel_x = 11;
+	pixel_y = -3
+	},
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/space)
+"tz" = (
+/obj/effect/decal/cleanable/glass/plastitanium,
+/turf/open/floor/plating/ocean,
+/area/space)
+"uS" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"uT" = (
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"vp" = (
+/obj/structure/shipping_container/gorlex,
+/turf/open/floor/plating/ocean,
+/area/space)
+"wv" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/space)
+"wP" = (
+/turf/open/floor/carpet/grimey,
+/area/space)
+"wQ" = (
+/obj/structure/table/wood,
+/obj/item/paper/fluff/ruins/listeningstation/reports/november,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/carpet/grimey,
+/area/space)
+"xy" = (
+/obj/machinery/computer/camera_advanced/syndie,
+/turf/open/floor/iron/dark,
+/area/space)
+"xT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"ym" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/sovietsoda,
+/turf/open/floor/iron/dark,
+/area/space)
+"yI" = (
+/obj/machinery/power/smes/super/full,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"yJ" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"zt" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"zz" = (
+/turf/open/floor/plating/ocean,
+/area/space)
+"zU" = (
+/obj/structure/broken_flooring/pile/directional/north,
+/turf/open/floor/plating/ocean,
+/area/space)
+"AK" = (
+/obj/machinery/porta_turret/syndicate/depot{
+	dir = 5
+	},
+/turf/open/floor/plating/ocean,
+/area/space)
+"Bk" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 4
+	},
+/obj/structure/closet/secure_closet/medical1{
+	req_access = list("syndicate")
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Bs" = (
+/obj/structure/shipping_container/interdyne,
+/turf/open/floor/plating/ocean,
+/area/space)
+"CK" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Dg" = (
+/obj/structure/sign/nanotrasen{
+	pixel_x = 32
+	},
+/turf/open/floor/plating/ocean,
+/area/space)
+"Dk" = (
+/obj/effect/turf_decal/syndicateemblem/bottom/left,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Do" = (
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"DI" = (
+/obj/structure/closet/secure_closet/freezer/empty/open,
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/turf/open/floor/iron/dark,
+/area/space)
+"Em" = (
+/obj/structure/filingcabinet/medical,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/turf/open/floor/iron/dark,
+/area/space)
+"EI" = (
+/obj/machinery/door/airlock/external/glass/ruin,
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"ES" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted,
+/obj/structure/bed/medical/emergency,
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/dark,
+/area/space)
+"EV" = (
+/obj/structure/closet/syndicate,
+/obj/item/clothing/under/color/black,
+/obj/item/clothing/head/soft/black{
+	pixel_x = -5;
+	pixel_y = 9
+	},
+/obj/item/ammo_box/magazine/m9mm{
+	pixel_x = 7;
+	pixel_y = 2
+	},
+/turf/open/floor/carpet/grimey,
+/area/space)
+"Fq" = (
+/obj/machinery/photocopier/gratis,
+/turf/open/floor/iron/dark,
+/area/space)
+"Go" = (
+/obj/effect/turf_decal/syndicateemblem/bottom/middle,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"HM" = (
+/obj/structure/closet/crate/engineering/electrical,
+/turf/open/floor/iron/dark,
+/area/space)
+"Ie" = (
+/obj/structure/broken_flooring/plating/directional/east,
+/turf/open/floor/plating/ocean,
+/area/space)
+"Il" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Jz" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/syndicateemblem/middle/right,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"JH" = (
+/obj/structure/table,
+/obj/machinery/microwave{
+	pixel_y = 8
+	},
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/turf/open/floor/iron/dark,
+/area/space)
+"JT" = (
+/obj/machinery/door/airlock/security/old,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Ko" = (
+/obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
+	dir = 1
+	},
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/blood/o_minus{
+	pixel_x = -5;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/blood/o_minus{
+	pixel_x = 4
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Ks" = (
+/obj/structure/lattice,
+/turf/closed/mineral/random/ocean,
+/area/space)
+"KV" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/carpet/grimey,
+/area/space)
+"Md" = (
+/obj/item/stack/tile/iron/dark,
+/turf/open/floor/plating/ocean,
+/area/space)
+"Mh" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/syndicateemblem/bottom/right,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Mu" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/structure/sink/kitchen/directional/south,
+/turf/open/floor/iron/dark,
+/area/space)
+"Nb" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/dark,
+/area/space)
+"NM" = (
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms/space,
+/turf/open/floor/carpet/grimey,
+/area/space)
+"Pg" = (
+/obj/structure/shipping_container/donk_co,
+/turf/open/floor/plating/ocean,
+/area/space)
+"Ph" = (
+/obj/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"PD" = (
+/obj/effect/turf_decal/syndicateemblem/top/left,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"QF" = (
+/obj/structure/broken_flooring/pile/directional/west,
+/turf/open/floor/plating/ocean,
+/area/space)
+"Sn" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Sv" = (
+/obj/machinery/fax{
+	syndicate_network = 1;
+	name = "listening post fax machine";
+	fax_name = "Syndicate Listening Post"
+	},
+/obj/structure/table/reinforced,
+/obj/item/paper/fluff/ruins/listeningstation/engineer,
+/obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty{
+	desc = "Beer. In space. A faded label on it reads 'use to avoid loneliness'. Seems to have already been used.";
+	pixel_x = -9;
+	pixel_y = 15
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Uh" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/turf_decal/tile/dark_blue/half/contrasted{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/dark,
+/area/space)
+"Va" = (
+/turf/closed/mineral/random/ocean,
+/area/space)
+"Vf" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Vm" = (
+/obj/structure/sign/nanotrasen{
+	pixel_x = -32
+	},
+/turf/open/floor/plating/ocean,
+/area/space)
+"Vu" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"WH" = (
+/obj/structure/broken_flooring/singular/directional/east,
+/turf/open/floor/plating/ocean,
+/area/space)
+"Xf" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/syndicateemblem/middle/middle,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Xy" = (
+/obj/machinery/computer/message_monitor{
+	dir = 8
+	},
+/obj/item/paper/monitorkey,
+/turf/open/floor/iron/dark,
+/area/space)
+"XD" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger{
+	pixel_x = -2
+	},
+/obj/item/stock_parts/power_store/cell/high{
+	pixel_x = -3
+	},
+/obj/item/flashlight{
+	pixel_y = 15;
+	pixel_x = 3
+	},
+/obj/machinery/light/small/directional/east,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/turf/open/floor/iron/dark,
+/area/space)
+"XG" = (
+/turf/open/space/basic,
+/area/space)
+"Ye" = (
+/obj/structure/cable,
+/turf/open/floor/mineral/plastitanium,
+/area/space)
+"Yk" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Dormitory Room"
+	},
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/iron/dark,
+/area/space)
+"YN" = (
+/obj/structure/lattice,
+/turf/open/floor/plating/ocean,
+/area/space)
+"Za" = (
+/obj/effect/turf_decal/syndicateemblem/middle/left,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"Zc" = (
+/turf/open/floor/circuit/red/anim,
+/area/space)
+"ZE" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Supplies Storeroom"
+	},
+/obj/structure/barricade/wooden/crude,
+/turf/open/space/basic,
+/area/space)
+
+(1,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+"}
+(2,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+"}
+(3,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+"}
+(4,1,1) = {"
+bS
+bS
+bS
+bS
+zz
+bS
+zz
+zz
+Va
+zz
+zz
+bS
+bS
+bS
+zz
+Va
+zz
+bS
+bS
+zz
+tz
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+"}
+(5,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+zz
+WH
+zz
+tz
+Va
+zz
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+zz
+zz
+Bs
+zz
+zz
+bS
+bS
+zz
+zz
+bS
+bS
+bS
+zz
+zz
+bS
+bS
+bS
+"}
+(6,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+zz
+zz
+Pg
+Va
+Va
+Va
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+WH
+zz
+zz
+Va
+zz
+bS
+zz
+Va
+zz
+bS
+zz
+bS
+zz
+Va
+zz
+bS
+bS
+"}
+(7,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+zz
+zz
+zz
+zz
+Va
+Va
+zz
+bS
+zz
+bS
+bS
+bS
+bS
+bS
+zz
+zz
+zz
+Va
+Va
+zz
+Va
+zz
+bS
+bS
+zz
+zz
+Va
+Va
+zz
+bS
+bS
+"}
+(8,1,1) = {"
+bS
+bS
+bS
+zz
+bS
+zz
+zz
+zz
+vp
+Va
+Va
+Va
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+zz
+Va
+Va
+Va
+zz
+zz
+bS
+bS
+zz
+zz
+Va
+Va
+zz
+bS
+bS
+"}
+(9,1,1) = {"
+bS
+bS
+bS
+zz
+bS
+bS
+zz
+zz
+zz
+Va
+Va
+Va
+Va
+zz
+bS
+Va
+bS
+bS
+bS
+bS
+zz
+Va
+Va
+Va
+zz
+zz
+zz
+tz
+WH
+zz
+Va
+Va
+Va
+Va
+zz
+bS
+"}
+(10,1,1) = {"
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+zz
+zz
+zz
+Va
+Va
+Va
+Va
+Va
+zz
+Md
+tz
+bS
+zz
+Va
+zz
+zz
+Dg
+zz
+AK
+zz
+zz
+zz
+Va
+Va
+Va
+Va
+Va
+zz
+bS
+"}
+(11,1,1) = {"
+bS
+bS
+bS
+zz
+zz
+bS
+bS
+bS
+zz
+Va
+Va
+Va
+Va
+zz
+zz
+zU
+zz
+zz
+zz
+zz
+zz
+lR
+eQ
+lR
+lR
+lR
+zz
+zz
+zz
+zz
+zz
+Va
+Va
+Va
+zz
+bS
+"}
+(12,1,1) = {"
+bS
+bS
+zz
+Va
+zz
+zz
+bS
+zz
+Va
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+Dg
+AK
+lR
+lR
+lR
+lR
+Ko
+Uh
+os
+lR
+lR
+lR
+lR
+zz
+zz
+zz
+Va
+Va
+zz
+bS
+"}
+(13,1,1) = {"
+bS
+zz
+Va
+Va
+Va
+Va
+zz
+zz
+zz
+AK
+lR
+lR
+lR
+lR
+hT
+lR
+lR
+lR
+lR
+hi
+iG
+lR
+bj
+Sn
+Do
+lR
+NM
+KV
+oo
+lR
+zz
+zz
+zz
+Va
+Va
+zz
+"}
+(14,1,1) = {"
+bS
+zz
+Va
+Va
+Va
+zz
+lR
+lR
+lR
+lR
+lR
+uT
+uT
+uT
+uT
+uT
+xT
+oo
+lR
+Zc
+Zc
+lR
+Bk
+zt
+ES
+lR
+wQ
+wP
+EV
+lR
+lR
+zz
+zz
+zz
+Va
+zz
+"}
+(15,1,1) = {"
+zz
+Va
+Va
+Va
+zz
+lR
+lR
+qf
+lR
+lR
+uT
+iV
+iV
+iV
+iV
+iV
+uT
+uT
+lR
+nC
+lR
+lR
+Ph
+sX
+Ph
+lR
+lR
+ek
+lR
+lR
+lR
+zz
+zz
+zz
+zz
+zz
+"}
+(16,1,1) = {"
+zz
+Va
+Va
+zz
+lR
+lR
+Em
+mP
+Fq
+lR
+Il
+uS
+PD
+Za
+Dk
+uS
+Vf
+uT
+lR
+uT
+uT
+uT
+uT
+uT
+uT
+lR
+ym
+sq
+sq
+DI
+lR
+zz
+zz
+zz
+Va
+zz
+"}
+(17,1,1) = {"
+bS
+lR
+lR
+lR
+lR
+lR
+xy
+Vu
+mP
+bY
+Il
+uS
+pN
+Xf
+Go
+uS
+Vf
+uT
+JT
+uT
+uT
+uT
+uT
+uT
+uT
+JT
+sq
+sq
+wv
+ti
+lR
+AK
+zz
+zz
+bS
+bS
+"}
+(18,1,1) = {"
+bS
+bS
+zz
+zz
+lR
+lR
+Sv
+mP
+mP
+lR
+Il
+uS
+sJ
+Jz
+Mh
+uS
+Vf
+uT
+lR
+uT
+uT
+uT
+uT
+uT
+uT
+lR
+Mu
+sq
+wv
+JH
+lR
+zz
+zz
+zz
+zz
+bS
+"}
+(19,1,1) = {"
+bS
+bS
+zz
+zz
+zz
+lR
+lR
+Xy
+XD
+lR
+uT
+hK
+hK
+yJ
+yJ
+yJ
+uT
+uT
+lR
+EI
+lR
+lR
+lR
+ZE
+lR
+lR
+lR
+Yk
+lR
+lR
+lR
+zz
+Va
+Va
+zz
+bS
+"}
+(20,1,1) = {"
+bS
+zz
+zz
+Va
+zz
+zz
+lR
+lR
+lR
+lR
+lR
+uT
+uT
+uT
+uT
+uT
+xT
+lR
+lR
+Ye
+Ye
+yI
+lR
+YN
+zz
+Md
+ku
+mP
+mP
+lR
+zz
+zz
+Va
+Va
+zz
+bS
+"}
+(21,1,1) = {"
+bS
+zz
+Va
+Va
+QF
+zz
+zz
+zz
+zz
+AK
+lR
+lR
+lR
+lR
+hT
+lR
+lR
+lR
+lR
+ea
+CK
+lR
+lR
+mr
+zz
+zz
+Ie
+mP
+YN
+zz
+zz
+Va
+zz
+zz
+zz
+bS
+"}
+(22,1,1) = {"
+bS
+zz
+Va
+Va
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+Vm
+AK
+lR
+lR
+lR
+lR
+HM
+Nb
+Va
+mP
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+Va
+zz
+bS
+"}
+(23,1,1) = {"
+bS
+Va
+Va
+Va
+zz
+Bs
+Va
+zz
+zz
+Va
+Va
+zz
+zz
+zz
+Va
+Md
+zz
+zz
+zz
+zz
+zz
+lR
+lR
+lR
+Ks
+Va
+Md
+lR
+zz
+zz
+Va
+tz
+zz
+zz
+bS
+bS
+"}
+(24,1,1) = {"
+bS
+zz
+Va
+zz
+zz
+zz
+zz
+Va
+Va
+Va
+zz
+cL
+zz
+Va
+Va
+zz
+zz
+zz
+cL
+zz
+zz
+zz
+zz
+jY
+Va
+zz
+zz
+AK
+YN
+Va
+Va
+zz
+bS
+zz
+bS
+bS
+"}
+(25,1,1) = {"
+zz
+Va
+zz
+tz
+zz
+zz
+zz
+Va
+Va
+zz
+zz
+zz
+zz
+Va
+Va
+zz
+tz
+zz
+Va
+Va
+bS
+bS
+zz
+zz
+zz
+zz
+zz
+zz
+Va
+Va
+Va
+zz
+bS
+bS
+bS
+bS
+"}
+(26,1,1) = {"
+zz
+zz
+bS
+bS
+zz
+zz
+Va
+Va
+Va
+zz
+zz
+Pg
+zz
+zz
+Va
+Va
+zz
+Va
+Va
+bS
+bS
+zz
+Va
+zz
+bS
+zz
+zz
+zz
+zz
+Va
+Va
+Va
+zz
+bS
+bS
+bS
+"}
+(27,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+zz
+Va
+Va
+Va
+zz
+zz
+zz
+tz
+zz
+Va
+Va
+Va
+Va
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+zz
+zz
+bk
+zz
+Va
+zz
+zz
+bS
+bS
+bS
+"}
+(28,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+Va
+Va
+Va
+zz
+zz
+zz
+zz
+Va
+zz
+Va
+Va
+Va
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+zz
+zz
+zz
+zz
+zz
+QF
+zz
+Va
+zz
+bS
+bS
+"}
+(29,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+Va
+Va
+zz
+bS
+zz
+bS
+bS
+zz
+zz
+Va
+Va
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+zz
+zz
+zz
+zz
+bS
+zz
+Va
+zz
+bS
+"}
+(30,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+Va
+zz
+bS
+bS
+bS
+zz
+Va
+zz
+Va
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+zz
+tz
+bS
+zz
+Va
+zz
+bS
+bS
+"}
+(31,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+bS
+zz
+zz
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+zz
+bS
+bS
+zz
+Va
+zz
+bS
+bS
+"}
+(32,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+Va
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+zz
+bS
+bS
+"}
+(33,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+zz
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+"}
+(34,1,1) = {"
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+bS
+XG
+bS
+bS
+bS
+"}

@@ -14,26 +14,38 @@
 	},
 	"traits": [
 		{
+			"Up": true,
 			"Linkage": null,
 			"Gravity": true,
 			"Mining": true,
-			"Baseturf": "/turf/open/floor/plating/ocean/rock",
+			"Baseturf": "/turf/open/lava/plasma/ice_moon",
+			"No Parallax": true,
+			"Oshan Mining": true
+		},
+		{
+			"Down": true,
+			"Up": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Mining": true,
+			"Baseturf": "/turf/open/openspace/ocean",
+			"No Parallax": true,
+			"Oshan Mining": true
+		},
+		{
+			"Down": true,
+			"Linkage": null,
+			"Gravity": true,
+			"Mining": true,
+			"Baseturf": "/turf/open/openspace/ocean",
 			"No Parallax": true,
 			"OshanTrait": true
 		}
 	],
-	"job_changes": {
-		"Cook": {
-			"additional_cqc_areas": [
-				"/area/station/service/bar",
-				"/area/station/commons/lounge"
-			]
-		}
-	},
+	"minetype": "null",
+	"blacklist_file": "iceruinblacklist.txt",
 	"banned_station_traits": [
 		"/datum/station_trait/late_arrivals",
 		"/datum/station_trait/random_spawns"
-	],
-	"minetype": "oshan",
-	"ignored_unit_tests": ["/datum/unit_test/create_and_destroy"]
+	]
 }
