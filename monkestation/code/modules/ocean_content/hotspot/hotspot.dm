@@ -69,7 +69,7 @@
 
 	///list of heat dousing rods in the radius
 	var/list/dousing_rods = list()
-	for(var/turf/open/floor/plating/ocean/listed_ocean in range(radius, destination))
+	for(var/turf/open/ocean/listed_ocean in RANGE_TURFS(radius, destination))
 		///assign the ocean turf and check if captured if so add to {vent_count}
 		if(listed_ocean.captured)
 			vent_count++
@@ -100,7 +100,7 @@
 ///this proc is pretty expensive but it forces a recalculation of vents in the radius of the hotspot from the center
 /datum/hotspot/proc/calculate_vent_count(turf/center_turf)
 	vent_count = 0
-	for(var/turf/open/floor/plating/ocean/surrounding_ocean in range(radius, center_turf))
+	for(var/turf/open/ocean/surrounding_ocean in RANGE_TURFS(radius, center_turf))
 		if(!surrounding_ocean.captured)
 			continue
 		vent_count++
@@ -183,7 +183,7 @@
 	// replace once you find a reason for a random wandering point to destroy the station.
 	// Hotspots should be cool additions to a map and not just a glorified hazard
 
-	// if(!istype(calculation_point, /turf/open/floor/plating/ocean))
+	// if(!istype(calculation_point, /turf/open/ocean))
 	// 	if(event_flags & WEAK_FIRE)
 	// 		//explosion(calculation_point, 0,  0, 0, 3, 0, adminlog = FALSE)
 	// 	if(event_flags & FIRE_EVENT)

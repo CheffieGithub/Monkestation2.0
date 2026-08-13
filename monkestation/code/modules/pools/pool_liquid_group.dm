@@ -20,29 +20,36 @@
 
 /datum/liquid_group/pool_group/spread_liquid(turf/new_turf, turf/source_turf)
 	if(isclosedturf(new_turf) || !source_turf.atmos_adjacent_turfs)
-		return
-	if(!(new_turf in source_turf.atmos_adjacent_turfs)) //i hate that this is needed
-		return
+		return FALSE
+
 	if(!source_turf.atmos_adjacent_turfs[new_turf])
-		return
+		return FALSE
+
+	if(new_turf.liquids || (new_turf.turf_flags & NO_FLUID_GROUPS))
+		return FALSE
+
+	if(source_turf.turf_height != new_turf.turf_height)
+		return FALSE
+
 	if(!istype(new_turf, /turf/open/floor/lowered/iron/pool))
-		return
+		return FALSE
 
-	if(!new_turf.liquids && !istype(new_turf, /turf/open/openspace) && !isspaceturf(new_turf) && !istype(new_turf, /turf/open/floor/plating/ocean) && source_turf.turf_height == new_turf.turf_height) // no space turfs, or oceans turfs, also don't attempt to spread onto a turf that already has liquids wastes processing time
-		if(reagents_per_turf < LIQUID_HEIGHT_DIVISOR)
-			return FALSE
-		if(!length(members))
-			return FALSE
-		reagents_per_turf = total_reagent_volume / members.len
-		expected_turf_height = CEILING(reagents_per_turf, 1) / LIQUID_HEIGHT_DIVISOR
-		new_turf.liquids = new(new_turf, src)
-		new_turf.liquids.alpha = group_alpha
-		check_edges(new_turf)
+	if(reagents_per_turf < LIQUID_HEIGHT_DIVISOR)
+		return FALSE
 
-		var/obj/splashy = new /obj/effect/temp_visual/liquid_splash(new_turf)
-		if(new_turf.liquids.liquid_group)
-			splashy.color = new_turf.liquids.liquid_group.group_color
+	if(!length(members))
+		return FALSE
 
-		water_rush(new_turf, source_turf)
+	reagents_per_turf = total_reagent_volume / members.len
+	expected_turf_height = CEILING(reagents_per_turf, 1) / LIQUID_HEIGHT_DIVISOR
+	new_turf.liquids = new(new_turf, src)
+	new_turf.liquids.alpha = group_alpha
+	check_edges(new_turf)
+
+	var/obj/splashy = new /obj/effect/temp_visual/liquid_splash(new_turf)
+	if(new_turf.liquids.liquid_group)
+		splashy.color = new_turf.liquids.liquid_group.group_color
+
+	water_rush(new_turf, source_turf)
 
 	return TRUE

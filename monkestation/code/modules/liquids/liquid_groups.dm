@@ -660,25 +660,38 @@ GLOBAL_VAR_INIT(liquid_debug_colors, FALSE)
 
 /datum/liquid_group/proc/check_adjacency(turf/member)
 	var/adjacent_liquid = 0
-	for(var/tur in member.get_atmos_adjacent_turfs())
-		var/turf/adjacent_turf = tur
+	for(var/turf/adjacent_turf as anything in member.get_atmos_adjacent_turfs())
 		if(!QDELETED(adjacent_turf.liquids))
 			if(adjacent_turf.liquids.liquid_group == member.liquids.liquid_group)
 				adjacent_liquid++
+
 	if(adjacent_liquid < 2)
 		return FALSE
+
 	return TRUE
 
 /datum/liquid_group/proc/process_cached_edges()
-	for(var/turf/cached_turf in cached_edge_turfs)
+	for(var/turf/cached_turf as anything in cached_edge_turfs)
 		for(var/direction in cached_edge_turfs[cached_turf])
 			var/turf/directional_turf = get_step(cached_turf, direction)
-			if(!directional_turf || isclosedturf(directional_turf) || !TURFS_CAN_SHARE(cached_turf, directional_turf) || HAS_TRAIT(directional_turf, TRAIT_BLOCK_LIQUID_SPREAD))
+			if(!directional_turf || isclosedturf(directional_turf))
 				continue
-			if(spread_liquid(directional_turf, cached_turf))
-				cached_edge_turfs[cached_turf] -= direction
-				if(!length(cached_edge_turfs[cached_turf]))
-					cached_edge_turfs -= cached_turf
+
+			if(HAS_TRAIT(directional_turf, TRAIT_BLOCK_LIQUID_SPREAD))
+				continue
+
+			if(directional_turf.turf_flags & NO_FLUID_GROUPS)
+				continue
+
+			if(!TURFS_CAN_SHARE(cached_turf, directional_turf))
+				continue
+
+			if(!spread_liquid(directional_turf, cached_turf))
+				continue
+
+			cached_edge_turfs[cached_turf] -= direction
+			if(!length(cached_edge_turfs[cached_turf]))
+				cached_edge_turfs -= cached_turf
 
 /datum/liquid_group/proc/check_edges(turf/checker)
 	var/list/passed_directions = list()

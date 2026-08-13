@@ -304,3 +304,47 @@ GLOBAL_LIST_EMPTY(dug_up_basalt)
 	floor_variance = 0
 	base_icon_state = "moon_dug"
 	icon_state = "moon_dug"
+
+/turf/closed/mineral/random/ocean/gets_drilled(mob/user, give_exp)
+	SShotspots.disturb_turf(src)
+	return ..()
+
+/turf/closed/mineral/random/ocean
+	baseturfs = /turf/open/ocean/cracked/heavy
+	turf_type = /turf/open/ocean/cracked/heavy
+	color = "#58606b"
+
+/turf/closed/mineral/random/high_chance/ocean
+	baseturfs = /turf/open/ocean/cracked/heavy
+	turf_type = /turf/open/ocean/cracked/heavy
+	color = "#58606b"
+
+/turf/closed/mineral/random/low_chance/ocean
+	baseturfs = /turf/open/ocean/cracked/heavy
+	turf_type = /turf/open/ocean/cracked/heavy
+	color = "#58606b"
+
+/turf/closed/mineral/random/stationside/ocean
+	baseturfs = /turf/open/ocean/cracked/heavy
+	turf_type = /turf/open/ocean/cracked/heavy
+	color = "#58606b"
+
+/turf/closed/mineral/random/ocean/above
+	baseturfs = /turf/open/ocean/cracked
+	turf_type = /turf/open/ocean/cracked
+	color = "#58606b"
+
+/turf/closed/mineral/random/high_chance/ocean/above
+	baseturfs = /turf/open/ocean/cracked
+	turf_type = /turf/open/ocean/cracked
+	color = "#58606b"
+
+/turf/closed/mineral/random/low_chance/ocean/above
+	baseturfs = /turf/open/ocean/cracked
+	turf_type = /turf/open/ocean/cracked
+	color = "#58606b"
+
+/turf/closed/mineral/random/stationside/ocean/above
+	baseturfs = /turf/open/ocean/cracked
+	turf_type = /turf/open/ocean/cracked
+	color = "#58606b"

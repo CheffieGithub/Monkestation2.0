@@ -1,11 +1,12 @@
 GLOBAL_VAR_INIT(starlight_color, pick(COLOR_TEAL, COLOR_GREEN, COLOR_CYAN, COLOR_ORANGE, COLOR_PURPLE, COLOR_RED, COLOR_BLUE, COLOR_GREEN, COLOR_MAGENTA)) //monkestation addition
 /turf/open/space
+	name = "\proper space"
 	icon = 'icons/turf/space.dmi'
 	icon_state = "space"
-	name = "\proper space"
+
 	overfloor_placed = FALSE
 	underfloor_accessibility = UNDERFLOOR_INTERACTABLE
-	turf_flags = NO_RUST
+	turf_flags = NO_FLUID_GROUPS | NO_RUST
 	rust_resistance = RUST_RESISTANCE_ABSOLUTE
 
 	temperature = TCMB

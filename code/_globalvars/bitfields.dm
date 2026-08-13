@@ -54,6 +54,7 @@ DEFINE_BITFIELD(area_flags, list(
 ))
 
 DEFINE_BITFIELD(turf_flags, list(
+	"NO_FLUID_GROUPS" = NO_FLUID_GROUPS,
 	"NO_LAVA_GEN" = NO_LAVA_GEN,
 	"NO_RUINS" = NO_RUINS,
 	"NO_RUST" = NO_RUST,

@@ -164,10 +164,11 @@
 #define INIT_ORDER_TIMETRACK 46
 #define INIT_ORDER_SPATIAL_GRID 43
 #define INIT_ORDER_ECONOMY 40
-#define INIT_ORDER_OUTPUTS 35
-#define INIT_ORDER_RESTAURANT 34
-#define INIT_ORDER_POLLUTION 32
-#define INIT_ORDER_FLUIDS 32 // Needs to be above atoms, as some atoms may want to start fluids/gases on init
+#define INIT_ORDER_OUTPUTS 36
+#define INIT_ORDER_RESTAURANT 35
+#define INIT_ORDER_POLLUTION 34
+#define INIT_ORDER_FLUIDS 33 // Needs to be above atoms, as some atoms may want to start fluids/gases on init
+#define INIT_ORDER_OCEAN 32
 #define INIT_ORDER_CASSETTES 31
 #define INIT_ORDER_ATOMS 30
 #define INIT_ORDER_ARMAMENTS 27
@@ -217,6 +218,7 @@
 #define FIRE_PRIORITY_DATABASE 16
 #define FIRE_PRIORITY_POLLUTION 18
 #define FIRE_PRIORITY_LIQUID_TURFS 19
+#define FIRE_PRIORITY_OCEAN 19
 #define FIRE_PRIORITY_WET_FLOORS 20
 #define FIRE_PRIORITY_AIR 20
 #define FIRE_PRIORITY_NPC 20

@@ -44,10 +44,17 @@
 
 /obj/effect/abstract/liquid_turf/Initialize(mapload, datum/liquid_group/group_to_add)
 	. = ..()
+
+	if(!isturf(loc))
+		stack_trace("Liquid turf created on a non turf loc!")
+		return INITIALIZE_HINT_QDEL
+
 	if(!small_fire)
 		small_fire = new
+
 	if(!medium_fire)
 		medium_fire = new
+
 	if(!big_fire)
 		big_fire = new
 

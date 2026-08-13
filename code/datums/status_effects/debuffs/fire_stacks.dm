@@ -159,7 +159,7 @@
 
 	enemy_types = list(/datum/status_effect/fire_handler/wet_stacks, /datum/status_effect/fire_handler/wet_stacks/oozeling)
 	stack_modifier = 1
-	enemy_turf = /turf/open/floor/plating/ocean
+	enemy_turf = /turf/open/ocean
 
 	/// If we're on fire
 	var/on_fire = FALSE
@@ -350,7 +350,7 @@
 	id = "oozeling_wet_stacks"
 	enemy_types = list(/datum/status_effect/fire_handler/fire_stacks, /datum/status_effect/fire_handler/wet_stacks)
 	applied_particles = /particles/droplets/slime
-	enemy_turf = /turf/open/floor/plating/ocean
+	enemy_turf = /turf/open/ocean
 
 /datum/status_effect/fire_handler/wet_stacks/oozeling/adjust_particles(obj/effect/abstract/shared_particle_holder/particle_holder)
 	if(!particle_holder)

@@ -11,12 +11,6 @@ SUBSYSTEM_DEF(liquids)
 
 	var/list/temperature_queue = list()
 
-	var/list/active_ocean_turfs = list()
-	var/list/ocean_turfs = list()
-	var/list/currentrun_active_ocean_turfs = list()
-	var/list/unvalidated_oceans = list()
-	var/ocean_counter = 0
-
 	var/run_type = SSLIQUIDS_RUN_TYPE_GROUPS
 
 	///debug variable to toggle evaporation from running
@@ -40,20 +34,14 @@ SUBSYSTEM_DEF(liquids)
 
 
 /datum/controller/subsystem/liquids/stat_entry(msg)
-	msg += "AG:[length(active_groups)]|BT:[length(burning_turfs)]|EQ:[length(evaporation_queue)]|AO:[length(active_ocean_turfs)]|UO:[length(unvalidated_oceans)]"
+	msg += "AG:[length(active_groups)]|BT:[length(burning_turfs)]|EQ:[length(evaporation_queue)]"
 	return ..()
 
 /datum/controller/subsystem/liquids/fire(resumed)
-	if(!length(active_groups) && !length(evaporation_queue) && !length(active_ocean_turfs) && !length(burning_turfs) && !length(unvalidated_oceans))
+	if(!length(active_groups) && !length(evaporation_queue) && !length(burning_turfs))
 		return
 
 	list_clear_nulls(active_groups)
-
-	if(length(unvalidated_oceans))
-		for(var/turf/open/floor/plating/ocean/unvalidated_turf in unvalidated_oceans)
-			if(MC_TICK_CHECK)
-				return
-			unvalidated_turf.assume_self()
 
 	if(length(arrayed_groups))
 		list_clear_nulls(arrayed_groups)
@@ -136,20 +124,6 @@ SUBSYSTEM_DEF(liquids)
 				if(length(liquid_group.burning_members))
 					liquid_group.process_fire()
 			fire_counter = 0
-		run_type = SSLIQUIDS_RUN_TYPE_OCEAN
-
-	if(!length(currentrun_active_ocean_turfs))
-		currentrun_active_ocean_turfs = active_ocean_turfs
-
-	if(run_type == SSLIQUIDS_RUN_TYPE_OCEAN)
-		list_clear_nulls(currentrun_active_ocean_turfs)
-		ocean_counter++
-		if(ocean_counter >= REQUIRED_OCEAN_PROCESSES)
-			for(var/turf/open/floor/plating/ocean/active_ocean in currentrun_active_ocean_turfs)
-				if(MC_TICK_CHECK)
-					return
-				active_ocean.process_turf()
-			ocean_counter = 0
 		run_type = SSLIQUIDS_RUN_TYPE_TURFS
 
 	if(run_type == SSLIQUIDS_RUN_TYPE_TURFS)

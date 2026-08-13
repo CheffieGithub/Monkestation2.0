@@ -29,8 +29,9 @@
 	var/light_state = BLOCK_LIGHT
 
 GLOBAL_LIST_INIT(spacevine_tile_spread_blacklist, list(
-	/turf/open/floor/plating/ocean,
+	/turf/open/ocean,
 	/turf/open/space,
+	/turf/open/lava,
 ))
 
 /obj/structure/spacevine/Initialize(mapload)

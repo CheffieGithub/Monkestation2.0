@@ -267,7 +267,6 @@ GLOBAL_VAR_INIT(focused_tests, focused_tests())
 		/obj/effect/spawner/random_bar,
 		/obj/machinery/atm, // starts a timer, and if its being instantly deleted it can cause issues
 		/obj/machinery/ocean_elevator,
-		/turf/closed/mineral/random/regrowth,
 		/obj/effect/abstract/signboard_holder, // shouldn't exist outside of signboards
 		/obj/effect/transmission_beam, // relies on the existence of a PTL
 		/obj/item/radio/entertainment/speakers/pda, // shouldn't outside of a modular computer
@@ -354,8 +353,6 @@ GLOBAL_VAR_INIT(focused_tests, focused_tests())
 	// We also dont want weathers or weather events as they will hold refs to alot of stuff as they shouldn't be deleted
 	ignore += typesof(/mob/living/basic/aquatic)
 	ignore += typesof(/obj/machinery/station_map)
-	// Causes weird issues that I don't understand and can be investigated later and I just want this to stop randomly failing
-	ignore += typesof(/turf/open/floor/plating/ocean)
 	ignore += typesof(/turf/open/openspace/ocean)
 
 	return ignore

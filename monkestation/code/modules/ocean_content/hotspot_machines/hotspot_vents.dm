@@ -19,8 +19,8 @@
 
 /obj/machinery/power/vent/Initialize(mapload)
 	. = ..()
-	if(istype(loc, /turf/open/floor/plating/ocean))
-		var/turf/open/floor/plating/ocean/location = loc
+	if(istype(loc, /turf/open/ocean))
+		var/turf/open/ocean/location = loc
 		location.captured = TRUE
 		update_state(location)
 
@@ -83,7 +83,7 @@
 /obj/machinery/power/vent/proc/disassemble()
 	disconnect_from_network()
 	setup = FALSE
-	var/turf/open/floor/plating/ocean/turf = get_turf(src)
+	var/turf/open/ocean/turf = get_turf(src)
 	turf.captured = FALSE
 	STOP_PROCESSING(SSmachines, src)
 	var/obj/item/vent_package/new_package = new(turf)

@@ -18,7 +18,7 @@
 /obj/structure/shipping_container/kosmologistika{
 	dir = 4
 	},
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "bS" = (
 /turf/template_noop,
@@ -31,7 +31,7 @@
 /area/space)
 "cL" = (
 /obj/structure/broken_flooring/singular,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "ea" = (
 /obj/structure/closet/crate,
@@ -90,7 +90,7 @@
 /area/space)
 "mr" = (
 /obj/structure/broken_flooring/plating,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "mP" = (
 /turf/open/floor/iron/dark,
@@ -155,7 +155,7 @@
 /area/space)
 "tz" = (
 /obj/effect/decal/cleanable/glass/plastitanium,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "uS" = (
 /turf/open/floor/mineral/plastitanium/red,
@@ -165,7 +165,7 @@
 /area/space)
 "vp" = (
 /obj/structure/shipping_container/gorlex,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "wv" = (
 /obj/effect/turf_decal/tile/red/opposingcorners,
@@ -214,17 +214,17 @@
 /turf/open/floor/iron/dark,
 /area/space)
 "zz" = (
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "zU" = (
 /obj/structure/broken_flooring/pile/directional/north,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "AK" = (
 /obj/machinery/porta_turret/syndicate/depot{
 	dir = 5
 	},
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Bk" = (
 /obj/effect/turf_decal/tile/dark_blue/anticorner/contrasted{
@@ -237,7 +237,7 @@
 /area/space)
 "Bs" = (
 /obj/structure/shipping_container/interdyne,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "CK" = (
 /obj/machinery/power/port_gen/pacman/pre_loaded,
@@ -248,7 +248,7 @@
 /obj/structure/sign/nanotrasen{
 	pixel_x = 32
 	},
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Dk" = (
 /obj/effect/turf_decal/syndicateemblem/bottom/left,
@@ -314,7 +314,7 @@
 /area/space)
 "Ie" = (
 /obj/structure/broken_flooring/plating/directional/east,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Il" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -361,7 +361,7 @@
 /area/space)
 "Md" = (
 /obj/item/stack/tile/iron/dark,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Mh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -383,7 +383,7 @@
 /area/space)
 "Pg" = (
 /obj/structure/shipping_container/donk_co,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Ph" = (
 /obj/structure/window/reinforced/plasma/plastitanium,
@@ -395,7 +395,7 @@
 /area/space)
 "QF" = (
 /obj/structure/broken_flooring/pile/directional/west,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Sn" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -439,7 +439,7 @@
 /obj/structure/sign/nanotrasen{
 	pixel_x = -32
 	},
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Vu" = (
 /obj/structure/chair/office{
@@ -449,7 +449,7 @@
 /area/space)
 "WH" = (
 /obj/structure/broken_flooring/singular/directional/east,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Xf" = (
 /obj/effect/decal/cleanable/dirt,
@@ -495,7 +495,7 @@
 /area/space)
 "YN" = (
 /obj/structure/lattice,
-/turf/open/floor/plating/ocean,
+/turf/open/ocean,
 /area/space)
 "Za" = (
 /obj/effect/turf_decal/syndicateemblem/middle/left,

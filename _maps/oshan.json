@@ -18,7 +18,7 @@
 			"Linkage": null,
 			"Gravity": true,
 			"Mining": true,
-			"Baseturf": "/turf/open/lava/plasma/ice_moon",
+			"Baseturf": "/turf/open/lava/ocean",
 			"No Parallax": true,
 			"Oshan Mining": true
 		},
@@ -42,7 +42,7 @@
 			"OshanTrait": true
 		}
 	],
-	"minetype": "null",
+	"minetype": "none",
 	"blacklist_file": "iceruinblacklist.txt",
 	"banned_station_traits": [
 		"/datum/station_trait/late_arrivals",

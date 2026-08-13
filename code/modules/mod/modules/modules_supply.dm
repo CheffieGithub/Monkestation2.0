@@ -396,7 +396,7 @@
 			/turf/open/misc/asteroid,
 			/turf/open/misc/ashplanet,
 			/turf/open/misc/dirt,
-			/turf/open/floor/plating/ocean,
+			/turf/open/ocean,
 		))
 	if(!keep_turfs)
 		keep_turfs = typecacheof(list(

@@ -23,7 +23,7 @@
 	clawfootstep = FOOTSTEP_LAVA
 	heavyfootstep = FOOTSTEP_LAVA
 	rust_resistance = RUST_RESISTANCE_ABSOLUTE
-	turf_flags = NO_RUST
+	turf_flags = NO_FLUID_GROUPS | NO_RUST
 
 	/// How much fire damage we deal to living mobs stepping on us
 	var/lava_damage = 20

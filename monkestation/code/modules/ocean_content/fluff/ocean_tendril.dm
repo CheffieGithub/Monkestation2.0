@@ -15,7 +15,7 @@
 	desc = "Get your loot and get clear, else you will be sleeping with the fishes!"
 
 	// a var used in terraformation, i could just type the turf into it but that would look ugly due to its lenght
-	var/transformation_turf = /turf/open/floor/plating/ocean/dark/rock/warm/fissure
+	var/transformation_turf = /turf/open/lava/ocean
 
 /obj/effect/collapse/ocean/collapse()
 	for(var/mob/M in range(7,src))

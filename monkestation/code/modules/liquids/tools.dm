@@ -49,21 +49,21 @@ ADMIN_VERB(remove_liquid, R_FUN, FALSE, "Remove Liquids", "Removes a chosen liqu
 	log_game("[key_name_admin(user)] removed liquids with range [range] in [epicenter.loc.name]")
 	BLACKBOX_LOG_ADMIN_VERB("Remove Liquids")
 
-ADMIN_VERB(change_ocean, R_FUN, FALSE, "Change Ocean Liquid", "Changes the reagent of the ocean.", ADMIN_CATEGORY_FUN)
-	var/choice = tgui_input_list(user, "Choose a reagent", "Ocean Reagent", subtypesof(/datum/reagent))
-	if(!choice)
-		return
-	message_admins("[ADMIN_LOOKUPFLW(user)] changed the ocean reagent to [choice]")
-	log_admin("[key_name(user)] changed the ocean reagent to [choice]")
-	var/datum/reagent/chosen_reagent = choice
-	var/rebuilt = FALSE
-	for(var/turf/open/floor/plating/ocean/listed_ocean as anything in SSliquids.ocean_turfs)
-		if(!rebuilt)
-			listed_ocean.ocean_reagents = list()
-			listed_ocean.ocean_reagents[chosen_reagent] = 10
-			listed_ocean.static_overlay.mix_colors(listed_ocean.ocean_reagents)
-			for(var/area/ocean/ocean_types in GLOB.initalized_ocean_areas)
-				ocean_types.base_lighting_color = listed_ocean.static_overlay.color
-				ocean_types.update_base_lighting()
-			rebuilt = TRUE
-	BLACKBOX_LOG_ADMIN_VERB("Change Ocean Liquid")
+// ADMIN_VERB(change_ocean, R_FUN, FALSE, "Change Ocean Liquid", "Changes the reagent of the ocean.", ADMIN_CATEGORY_FUN)
+// 	var/choice = tgui_input_list(user, "Choose a reagent", "Ocean Reagent", subtypesof(/datum/reagent))
+// 	if(!choice)
+// 		return
+// 	message_admins("[ADMIN_LOOKUPFLW(user)] changed the ocean reagent to [choice]")
+// 	log_admin("[key_name(user)] changed the ocean reagent to [choice]")
+// 	var/datum/reagent/chosen_reagent = choice
+// 	var/rebuilt = FALSE
+// 	for(var/turf/open/ocean/listed_ocean as anything in SSliquids.ocean_turfs)
+// 		if(!rebuilt)
+// 			listed_ocean.ocean_reagents = list()
+// 			listed_ocean.ocean_reagents[chosen_reagent] = 10
+// 			listed_ocean.static_overlay.mix_colors(listed_ocean.ocean_reagents)
+// 			for(var/area/ocean/ocean_types in GLOB.initalized_ocean_areas)
+// 				ocean_types.base_lighting_color = listed_ocean.static_overlay.color
+// 				ocean_types.update_base_lighting()
+// 			rebuilt = TRUE
+// 	BLACKBOX_LOG_ADMIN_VERB("Change Ocean Liquid")

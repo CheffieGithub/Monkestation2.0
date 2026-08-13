@@ -246,7 +246,8 @@ Always compile, always use that verb, and always make sure that it works for wha
 	ZTRAIT_MINING = TRUE, \
 	ZTRAIT_NOPARALLAX = TRUE, \
 	ZTRAIT_BOMBCAP_MULTIPLIER = 2, \
-	ZTRAIT_BASETURF = /turf/open/floor/plating/ocean/dark)
+	ZTRAIT_BASETURF = /turf/open/ocean, \
+)
 
 // boolean - particle weather types that occur on the level
 #define WEATHER_MESSAGE_DELAY 30 SECONDS
