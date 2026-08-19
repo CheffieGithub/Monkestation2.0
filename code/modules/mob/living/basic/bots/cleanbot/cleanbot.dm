@@ -3,8 +3,9 @@
 /mob/living/basic/bot/cleanbot
 	name = "\improper Cleanbot"
 	desc = "A little cleaning robot, he looks so excited!"
-	icon = 'icons/mob/silicon/aibots.dmi'
+	icon = 'icons/mob/silicon/cleanbot.dmi'
 	icon_state = "cleanbot0"
+	greyscale_config = /datum/greyscale_config/buckets_cleanbot
 	pass_flags = PASSMOB | PASSFLAPS
 	density = FALSE
 	anchored = FALSE
@@ -17,7 +18,6 @@
 	bot_type = CLEAN_BOT
 	hackables = "cleaning software"
 	additional_access = /datum/id_trim/job/janitor
-	greyscale_config = /datum/greyscale_config/buckets_cleanbot
 	possessed_message = "You are a cleanbot! Clean the station to the best of your ability!"
 	ai_controller = /datum/ai_controller/basic_controller/bot/cleanbot
 	path_image_color = "#993299"
